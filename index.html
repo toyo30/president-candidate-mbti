@@ -48,8 +48,42 @@
         <img id="img" class="rounded-circle mt-5" src="img/lion.png" alt="animal">
         <h2 id="animal" class="result-animal text-center mt-4 mb-4">동물이름</h2>
         <h3 id="explain" class="result-explain text-center mt-4">설명</h3>
+        <div class="ranking-box">
+            <div class="img-area">
+                <img class="rounded-circle mt-5 small-img" src="img/lion.png" alt="animal">
+                <p class="name">심상정</p>
+            </div>
+            <div class="add-des">
+                <p>2등</p>
+                <p class="add-explain"></p>
+            </div>
+        </div>
+        
+        <div class="ranking-box">
+            <div class="img-area">
+                <img class="rounded-circle mt-5 small-img" src="img/lion.png" alt="animal">
+                <p class="name">심상정</p>
+            </div>
+            <div class="add-des">
+                <p>3등</p>
+                <p class="add-explain"></p>
+            </div>
+        </div>
+
+        <div class="ranking-box">
+            <div class="img-area">
+                <img class="rounded-circle mt-5 small-img" src="img/lion.png" alt="animal">
+                <p class="name">심상정</p>
+            </div>
+            <div class="add-des">
+                <p>4등</p>
+                <p class="add-explain"></p>
+            </div>
+        </div>
+
         <div class="rectangle mt-4 mb-4"></div>
-        <span class="share-message mb-4">2022 대선, 당신의 후보를 선택하세요!<strong>공유하기</strong></span>
+        <span class="share-message mb-4">2022 대선, 당신의 후보를 선택하세요!</span>
+        <span class="share-message mb-4"><strong>공유하기</strong></span>
         <div class="share addthis_inline_share_toolbox"></div>
 
     </article>
@@ -79,10 +113,10 @@
             9: {"title": "후보 개인의 역량이 중요하다고 생각하십니까?", "type": "cap", "A": ["대통령은 최종 결정권자이기 때문에 개인의 역량은 매우 중요하다.", [-2, 1, 0, 2]], "B": ["후보의 역량이 부족해도 각 분야의 능력있는 사람들을 적재적소에 기용하면 훌륭한 지도자가 될 수 있다.", [0, 0, 0, 0]], "length": 2},
         }
         var result = {
-            "yoon": {"animal": "국민의힘 <strong>윤석열</strong>", "explain": "후보자 공략<br><br>(윤석열 공략)", "img": "yoon.jpeg"},
-            "ahn": {"animal": "국민의당 <strong>안철수</strong>", "explain": "후보자 공략<br><br>(안철수 공략)", "img": "ahn.jpeg"},
-            "sim": {"animal": "정의당 <strong>심상정</strong>", "explain": "후보자 공략<br><br>(심상정 공략)", "img": "sim.jpeg"},
-            "lee": {"animal": "더불어민주당 <strong>이재명</strong>", "explain": "후보자 공략<br><br>(이재명 공략)", "img": "lee.jpeg"}
+            "yoon": {"animal": "국민의힘<br> <strong>윤석열</strong>", "explain": "후보자 공략<br><br>(윤석열 공략)", "img": "yoon.jpeg", "img-small": "yoon-small.png"},
+            "ahn": {"animal": "국민의당<br> <strong>안철수</strong>", "explain": "후보자 공략<br><br>(안철수 공략)", "img": "ahn.jpeg", "img-small": "ahn-small.jpeg"},
+            "sim": {"animal": "정의당<br> <strong>심상정</strong>", "explain": "후보자 공략<br><br>(심상정 공략)", "img": "sim.jpeg", "img-small": "sim-small.jpeg"},
+            "lee": {"animal": "더불어민주당<br> <strong>이재명</strong>", "explain": "후보자 공략<br><br>(이재명 공략)", "img": "lee.jpeg", "img-small": "lee-small.jpeg"}
         }
 
         function start() {
@@ -138,25 +172,48 @@
                 rank[2] = parseInt($('#sim').val());
                 rank[3] = parseInt($('#lee').val());
 
-                console.log(rank);
-
                 rank.sort(function(a, b) {
                     return b - a;
                 });
 
-                console.log(rank);
 
                 let cdt = $('.score');
 
                 for(let i = 0; i < cdt.length; i++) {
                     if(rank[0] == parseInt(cdt.eq(i).val())) {
-                        console.log(rank[0], 'rank');
+                        console.log(rank[0], '1등');
                         console.log(cdt.eq(i))
                         $('#animal').html(result[cdt.eq(i).data("name")]["animal"]);
                         $('#explain').html(result[cdt.eq(i).data("name")]["explain"]);
                         $("#img").attr("src","img/"+ result[cdt.eq(i).data("name")]["img"]);
                     }
+
+                    if(rank[1] == parseInt(cdt.eq(i).val())) {
+                        console.log(rank[1], '2등');
+                        console.log(cdt.eq(i))
+                        $('.name').eq(0).html(result[cdt.eq(i).data("name")]["animal"]);
+                        $('.add-explain').eq(0).html(result[cdt.eq(i).data("name")]["explain"]);
+                        $(".small-img").eq(0).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
+                    }
+
+                    if(rank[2] == parseInt(cdt.eq(i).val())) {
+                        console.log(rank[2], '3등');
+                        console.log(cdt.eq(i))
+                        $('.name').eq(1).html(result[cdt.eq(i).data("name")]["animal"]);
+                        $('.add-explain').eq(1).html(result[cdt.eq(i).data("name")]["explain"]);
+                        $(".small-img").eq(1).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
+                    }
+
+                    if(rank[3] == parseInt(cdt.eq(i).val())) {
+                        console.log(rank[2], '3등');
+                        console.log(cdt.eq(i))
+                        $('.name').eq(2).html(result[cdt.eq(i).data("name")]["animal"]);
+                        $('.add-explain').eq(2).html(result[cdt.eq(i).data("name")]["explain"]);
+                        $(".small-img").eq(2).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
+                    }
                 }
+
+                
 
                 // var mbti = "";
                 // ($("#EI").val() < 2) ? mbti+="I" : mbti+="E";

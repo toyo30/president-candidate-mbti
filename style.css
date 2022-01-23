@@ -15,6 +15,7 @@ article {
 
 
 /* 시작화면 */
+
 .question {
     display: none;
 }
@@ -155,11 +156,44 @@ font-size: 24px;
 .result {
     display: none;
 }
+
+.start {
+    display: block;
+}
 #img {
     width: 300px;
     height: 300px;
     margin: 0 auto;
 }
+
+.small-img {
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+}
+
+
+
+/* ranking-box */
+
+.ranking-box {
+    display: flex;
+}
+
+.name {
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+.add-des {
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+
+
+
+
 .share {
     margin: 0 auto;
 }
