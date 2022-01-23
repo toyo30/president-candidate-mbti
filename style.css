@@ -21,11 +21,13 @@ article {
 .main-title {
     font-size: 14px;
     color: #7c7c7c;
+    word-break: keep-all;
 }
 .sub-title {
     font-size: 24px;
     font-weight: 100;
     color: #ebebeb;
+    word-break: keep-all;
 }
 .updown-slash {
     width: 166px;
@@ -83,6 +85,7 @@ font-size: 24px;
     margin: 0 auto;
     font-size: 13px;
     color: #ffffff;
+    word-break: keep-all;
 }
 .btn-answer:hover {
     background-color: #ff9300 !important;
@@ -109,6 +112,7 @@ font-size: 24px;
 .question-content {
     font-size: 14px;
     color: #ff9300;
+    word-break: keep-all;
 }
 .rectangle {
     width: 288px;
@@ -129,6 +133,8 @@ font-size: 24px;
     margin: 0 auto;
     font-size: 24px;
     font-weight: 100;
+    word-break: keep-all;
+    text-align: center;
 }
 .result-animal {
     font-size: 18px;
