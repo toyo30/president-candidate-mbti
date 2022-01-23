@@ -140,7 +140,9 @@
 
                 console.log(rank);
 
-                rank.reverse();
+                rank.sort(function(a, b) {
+                    return b - a;
+                });
 
                 console.log(rank);
 
@@ -148,6 +150,8 @@
 
                 for(let i = 0; i < cdt.length; i++) {
                     if(rank[0] == parseInt(cdt.eq(i).val())) {
+                        console.log(rank[0], 'rank');
+                        console.log(cdt.eq(i))
                         $('#animal').html(result[cdt.eq(i).data("name")]["animal"]);
                         $('#explain').html(result[cdt.eq(i).data("name")]["explain"]);
                         $("#img").attr("src","img/"+ result[cdt.eq(i).data("name")]["img"]);
@@ -163,7 +167,6 @@
                 // $("#animal").html(result[mbti]["animal"]);
                 // $("#explain").html(result[mbti]["explain"]);
             } else {
-                console.log(q[num]["length"])
                 $(".progress-bar").attr('style','width: calc(100/9*'+num+'%)');
                 $("#title").html(q[num]["title"]);
                 $("#type").val(q[num]["type"]);
