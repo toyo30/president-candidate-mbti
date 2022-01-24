@@ -1,7 +1,24 @@
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+html {
+    font-family: 전주 완판본 각L;
+    font-size: 14px;
+}
+
+
 body {
+    min-width: 320px;
     background-color: #F0F0F0;
     color: #ffffff;
     font-family: 'Noto Sans KR', sans-serif;
+    font-family: 전주 완판본 각L;
 }
 article {
     display: flex;
@@ -43,6 +60,7 @@ article {
     width: 100%;
     margin: 0 auto;
 }
+
 .sub-title {
     font-size: 24px;
     font-weight: 100;
@@ -123,23 +141,9 @@ article {
 
 
 /* 문제 화면 */
-.btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
-    background-color: #1f1f1f;
-    border:#1f1f1f;
-    width: 288px;
-    margin: 0 auto;
-    font-size: 13px;
-    color: #ffffff;
-    word-break: keep-all;
-}
-.btn-answer:hover {
-    background-color: #ff9300 !important;
-    border:#1f1f1f !important;
-    width: 288px;
-    margin: 0 auto;
-    font-size: 13px;
-    color: #ffffff;
-}
+
+
+
 .progress-bar {
     background-color: #ff9300;
 }
@@ -171,6 +175,61 @@ article {
     background-color: #383a43;
     margin: 0 auto;
 }
+
+
+/* 중간 추가 */
+
+.middle-img-box {
+    width: 22.9rem;
+    height: 15.86rem;
+    margin: 0 auto;
+    margin-top: 60px;
+    background: url(./img/middle-area.png) no-repeat;
+    background-size: contain;
+    padding: 30px 40px;
+    margin-bottom: 1.79rem;
+}
+
+
+
+.subject-content {
+    font-size: 13.5px;
+    color: #000000;
+    margin-top: 1rem;
+}
+
+.question-content {
+    font-size: 13.5px;
+    color: #000000;
+    width: 240px;
+    word-break: keep-all;
+    margin-top: 6rem;
+}
+
+
+.btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
+    background: #F0F0F0;
+    width: 288px;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #000000;
+    word-break: keep-all;
+    border: 7px solid #C4C4C4;
+    margin-bottom: 0.93rem;
+    padding: 1.00rem 0.3rem;
+    border-radius: 1.43rem;
+}
+.btn-answer:hover {
+    background-color: #F0F0F0 !important;
+    border:#F0F0F0 !important;
+    width: 288px;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #000000;
+    border: 7px solid #C4C4C4;
+}
+
+
 
 /* 결과 화면 */
 .result-message {

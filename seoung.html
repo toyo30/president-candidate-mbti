@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
     <title>2022 대선, 당신의 후보를 선택하세요!</title>
     <meta name="description" content="2022 대선, 당신의 후보를 선택하세요!">
     <meta property="og:type" content="website">
@@ -38,7 +38,7 @@
         <div class="main-img-box">
             <img class="main-img" src="./img/main-title.png" alt="메인타이틀">
         </div>
-        <h2 class="sub-title mt-3 text-center">대선후보 공략을 선택하여 나에게 꼭 맞는 대선후보를 찾아보자</h2>
+        <h2 class="sub-title mt-3 text-center blind">대선후보 공략을 선택하여 나에게 꼭 맞는 대선후보를 찾아보자</h2>
         <div class="start-cober mt-3 mb-3">
             <button type="button" class="btn-start btn btn-primary" onclick='start();'>
                 한번.. 골라보겠소
@@ -47,23 +47,28 @@
                 뽑을 사람이 없소!
             </button>
         </div>
+        <p></p>
     </article>
     <article class="question">
-        <div class="progress mt-5">
-            <div class="progress-bar" role="progressbar" style="width: calc(100/9*1%)"></div>
+        <h1 class="main-title mt-5 text-center">청와대의 주인<span class="version">2022 ver.</span></h1>
+        <div class="middle-img-box">
+            <p id="subject" class="subject-content text-center">문제</p>
+            <!-- <div class="progress mt-5">
+                <div class="progress-bar" role="progressbar" style="width: calc(100/9*1%)"></div>
+            </div> -->
+            <h2 id="title" class="question-content text-center">문제</h2>
         </div>
-        <h2 id="title" class="question-content text-center mt-4 mb-4">문제</h2>
-        <div class="rectangle mt-5"></div>
-        <button id="A" data-target="A" type="button" class="btn-answer btn btn-primary pt-5 pb-5">대답A</button>
-        <div class="mid-rectangle"></div>
-        <button id="B" data-target="B" type="button" class="btn-answer btn btn-primary pt-5 pb-5">대답B</button>
-        <div class="mid-rectangle"></div>
-        <button id="C" data-target="C" type="button" class="btn-answer btn btn-primary pt-5 pb-5">대답C</button>
-        <div class="mid-rectangle"></div>
-        <button id="D" data-target="D" type="button" class="btn-answer btn btn-primary pt-5 pb-5">대답D</button>
-        <div class="mid-rectangle"></div>
-        <button id="E" data-target="E" type="button" class="btn-answer btn btn-primary pt-5 pb-5">대답E</button>
-        <div class="rectangle"></div>
+        
+        <button id="A" data-target="A" type="button" class="btn-answer btn btn-primary">대답A</button>
+        
+        <button id="B" data-target="B" type="button" class="btn-answer btn btn-primary">대답B</button>
+        
+        <button id="C" data-target="C" type="button" class="btn-answer btn btn-primary">대답C</button>
+        
+        <button id="D" data-target="D" type="button" class="btn-answer btn btn-primary">대답D</button>
+        
+        <button id="E" data-target="E" type="button" class="btn-answer btn btn-primary">대답E</button>
+        
     </article>
 
     <article class="result">
