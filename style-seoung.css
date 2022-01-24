@@ -20,9 +20,28 @@ article {
     display: none;
 }
 .main-title {
-    font-size: 14px;
-    color: #7c7c7c;
+    font-size: 30px;
+    color: #000000;
     word-break: keep-all;
+    margin-left: 30px;
+}
+
+.version {
+    font-size: 13px;
+    color: #7c7c7c;
+    margin-left: 10px;
+}
+
+.main-img-box {
+    max-width: 375px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.main-img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
 }
 .sub-title {
     font-size: 24px;
@@ -46,17 +65,18 @@ article {
     color:#ff9300;
     background-color: #1f1f1f;
     border:#1f1f1f;
+    
 }
 
 
 
 .btn-start, .btn-start:visited, .btn-start:hover, .btn-start:active {
     font-size: 16px;
-    color:#ff9300;
-    background-color: #1f1f1f;
+    color:#333333;
     border:#1f1f1f;
-    
 }
+
+
 .btn-start:active, .btn-start:focus {
     background-color: #ff9300 !important;
     border:#1f1f1f !important;
@@ -65,18 +85,42 @@ article {
 }
 
 .btn-start{
-
-font-size: 24px;
-    color: #ff9300;
-    background-color: #1f1f1f;
-    border: #1f1f1f;
+    font-size: 14px;
+    padding: 7px 65px;
+    color: #000000;
+    background: #F0F0F0;
     display: block;
     margin: 0 auto;
-    border-radius: 15px;
-    width: 300px;
-    height: 150px;
-    border: 10px solid #FF9300;
+    border: 7px solid #C4C4C4;
+    border-radius: 20px;
+    background: transparent;
 }
+
+.btn-start:hover, .btn-egg:hover {
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    border: 7px solid #C4C4C4;
+    border-radius: 20px;
+    color: #000000;
+}
+
+
+
+.btn-egg {
+    font-size: 14px;
+    padding: 7px 65px;
+    color: #000000;
+    background: #F0F0F0;
+    display: block;
+    margin: 0 auto;
+    border: 7px solid #C4C4C4;
+    border-radius: 20px;
+    background: transparent;
+    margin-top: 22px;
+
+}
+
 
 /* 문제 화면 */
 .btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
