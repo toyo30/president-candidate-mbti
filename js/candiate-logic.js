@@ -94,16 +94,21 @@ var num = 1;
 
 
                 let cdt = $('.score');
+                let idx = 0
+                let saveInx = 0
 
                 for(let i = 0; i < cdt.length; i++) {
+                    console.log('h2')
                     if(rank[0] == parseInt(cdt.eq(i).val())) {
                         console.log(rank[0], '1등');
                         console.log(cdt.eq(i))
                         $('#animal').html(result[cdt.eq(i).data("name")]["animal"]);
                         $('#explain').html(result[cdt.eq(i).data("name")]["explain"]);
                         $("#img").attr("src","img/"+ result[cdt.eq(i).data("name")]["img"]);
+                        idx = i
                     }
 
+                    /*
                     if(rank[1] == parseInt(cdt.eq(i).val())) {
                         console.log(rank[1], '2등');
                         console.log(cdt.eq(i))
@@ -127,7 +132,36 @@ var num = 1;
                         $('.add-explain').eq(2).html(result[cdt.eq(i).data("name")]["explain"]);
                         $(".small-img").eq(2).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
                     }
+                    */                    
                 }
+        
+
+                for(let i = 0; i < cdt.length; i++) {
+
+                    
+                    for(let j = 0; j < 4; j++) {
+                        console.log('h1')
+                        if (i == idx) {
+                            break;
+                        }
+
+                        if(rank[j] == parseInt(cdt.eq(i).val())) {
+                            console.log('점수, 순위',rank[j], j + 1)
+                            console.log('후보자',cdt[i])
+                            $('.ranking-area').eq(saveInx).html(j+1);
+                            $('.name').eq(saveInx).html(result[cdt.eq(i).data("name")]["animal"]);
+                            $('.add-explain').eq(saveInx).html(result[cdt.eq(i).data("name")]["explain"]);
+                            $(".small-img").eq(saveInx).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
+                            saveInx++;
+                            break;
+                        }
+                        
+                        
+                    }
+                }
+                    
+            
+            
 
                 
 
