@@ -68,7 +68,7 @@ var num = 1;
                 <div class="loading">
                     <svg class="loading-circle">
                         <circle cx="50%" cy="50%" r="25"></circle>
-                        <p>결과 분석 중</p>
+                        <p>잠시만 기다리시오..</p>
                     </svg>
                 </div>`)
                 document.body.classList.add('before-load');
