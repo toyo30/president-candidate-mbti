@@ -91,13 +91,13 @@ article {
 .btn-start, .btn-start:visited, .btn-start:hover, .btn-start:active {
     font-size: 16px;
     color:#333333;
-    border:#1f1f1f;
+    border: 7px solid #C4C4C4;
 }
 
 
 .btn-start:active, .btn-start:focus {
-    background-color: #ff9300 !important;
-    border:#1f1f1f !important;
+    background-color: transparent !important;
+    border: 7px solid #C4C4C4 !important;
     font-size: 16px;
     color:#ffffff;
 }
@@ -183,11 +183,12 @@ article {
     width: 22.9rem;
     height: 15.86rem;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 1.88rem;
     background: url(./img/middle-area.png) no-repeat;
     background-size: contain;
-    padding: 30px 40px;
-    margin-bottom: 1.79rem;
+    padding: 1.88rem 2.50rem 4rem;
+    padding-bottom: 1.79rem;
+    margin-bottom: 1.56rem;
 }
 
 
@@ -208,25 +209,28 @@ article {
 
 
 .btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
-    background: #F0F0F0;
-    width: 288px;
+    background: transparent !important;
+    width: 21.43rem;
     margin: 0 auto;
     font-size: 13px;
     color: #000000;
     word-break: keep-all;
-    border: 7px solid #C4C4C4;
+    border: 7px solid #C4C4C4 !important;
     margin-bottom: 0.93rem;
     padding: 1.00rem 0.3rem;
     border-radius: 1.43rem;
+    box-shadow: none !important;
 }
 .btn-answer:hover {
-    background-color: #F0F0F0 !important;
-    border:#F0F0F0 !important;
-    width: 288px;
+    background-color: transparent !important;
+    border: 7px solid #C4C4C4 !important;
+    width: 21.43rem;
     margin: 0 auto;
     font-size: 13px;
     color: #000000;
     border: 7px solid #C4C4C4;
+    font-weight: bold;
+    margin-bottom: 0.93rem;
 }
 
 
