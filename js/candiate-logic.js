@@ -13,9 +13,9 @@ var q = {
 }
 var result = {
     "yoon": {"animal": "국민의힘 <strong><윤석열></strong>", "explain": "공정과 상식으로, 국민과 함께 만드는 미래 대한민국", "img": "result-box-yoon.png", "img-small": "yoon-small.png"},
-    "ahn": {"animal": "국민의당<br> <strong><안철수></strong>", "explain": "5·5·5 신성장 전략,  G5 경제 강국 대한민국을 위하여", "img": "result-box-ahn.png", "img-small": "ahn-small.jpeg"},
-    "sim": {"animal": "정의당<br> <strong><심상정></strong>", "explain": "정의로운 나라, 정의로운 대한민국을 위해 뛰겠습니다.", "img": "result-box-sim.png", "img-small": "sim-small.jpeg"},
-    "lee": {"animal": "더불어민주당<br> <strong><이재명></strong>", "explain": "앞으로 제대로, 나를 위해 이재명", "img": "result-box-lee.png", "img-small": "lee-small.jpeg"}
+    "ahn": {"animal": "국민의당 <strong><안철수></strong>", "explain": "5·5·5 신성장 전략,  G5 경제 강국 대한민국을 위하여", "img": "result-box-ahn.png", "img-small": "ahn-small.jpeg"},
+    "sim": {"animal": "정의당 <strong><심상정></strong>", "explain": "정의로운 나라, 정의로운 대한민국을 위해 뛰겠습니다.", "img": "result-box-sim.png", "img-small": "sim-small.jpeg"},
+    "lee": {"animal": "더불어민주당 <strong><이재명></strong>", "explain": "앞으로 제대로, 나를 위해 이재명", "img": "result-box-lee.png", "img-small": "lee-small.jpeg"}
 }
 
 function start() {

@@ -314,6 +314,7 @@ button:focus {
     text-align: center;
     margin-top: 3rem;
     font-size: 1.00rem;
+    top: 3rem;
 }
 
 #img {
