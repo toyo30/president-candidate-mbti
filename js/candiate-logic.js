@@ -6,16 +6,20 @@ var q = {
     3: {"subject": "3. 경제", "title": "경제 성장 공약입니다.<br>선택지를 고르세요.", "type": "financial", "A": [" 민간과 기업에 대한 복지 유치로<br> 경제 생태계를 복원하고<br> 개개인의 삶의 질 상승에 초점을 맞춘다.", [5, 0, 0, 0]], "B": ["디지털, 에너지 신산업 중심으로 한<br> 사회서비스 대전환으로<br> 수많은 일자리를 만들어야 한다.", [0, 0, 0, 5]], "C": ["2차전지, 수소산업, 시스템반도체, 콘텐츠,<br> 바이오 등 향후 큰 성장이 기대되는<br> 5대 사업에 집중 성장을 유도한다.", [0, 5, 0, 0]], "D": ["갈수록 심해지는 환경 문제에 대하여<br> 정부 주도의 재생에너지 산업에 주력한<br> 정책을 펼치고 주 4일 근무제를 도입한다.", [0, 0, 5, 0]], "E": ["잘 모르겠다.", [0, 0, 0, 0]], "length": 5},
     4: {"subject": "4. 여성가족부", "title": "여성가족부 폐지 여부에 대해<br>선택지를 고르세요.", "type": "mog ", "A": ["여성가족부를 폐지해야 한다.", [3, 1, -3, -1]], "B": ["개편이 필요하다고 본다.", [1, 0, -1, 0]], "C": ["잘 모르겠다", [0, 0, 0, 0]], "D": ["여성 가족부는 유지되어야 한다.", [-1, 0, 1, 0]], "E": ["여성가족부를 강화해야 한다.", [-3, -1, 3, 1]], "length": 5},
     5: {"subject": "5. 논란", "title": "후보 관련 논란의 유무에 대해서<br> 선택지를 고르세요.", "type": "moral", "A": ["지도자로서 관련 논란은 중요하지 않다.", [0, 0, 0, 0]], "B": ["지도자로서 관련 논란은 중요하다.", [-1, 0, 0, -3]], "length": 2},
-    6: {"subject": "6. 정권 교체", "title": "정권 교체의 필요성에 대해<br> 선택지를 고르세요.", "type": "regime", "A": ["정권 교체에 초점을 맞추지는 않는다.", [0, 0, 0, -1]], "B": ["현 정부는 정권교체가 절실히 필요하다.", [0, 0, 0, 0]], "length": 2},
-    7: {"subject": "7. 방역 대책", "title": "일상을 되찾을 때까지 모두 힘내세요!<br> 선택지를 고르세요.", "type": "covid", "A": ["방역패스를 철회하고<br> 새로운 방안을 찾아야 한다.", [5, 3, 5, 0]], "B": ["현재의 방역 방침을<br> 개편하여 이어가야 한다.", [0, 0, 0, 5]], "C": ["잘 모르겠다.", [0, 0, 0, 0]], "length": 3},
-    8: {"subject": "8. 정치 개혁", "title": "정치 개혁 관련 공약입니다.<br> 선택지를 고르세요.", "type": "prosecution", "A": ["공수처는 정권의 흥신소로 전락했기에 즉시 폐지하고 새로운 검찰 개혁이 필요하다.", [0, 3, 3, 0]], "B": ["검찰보다는 실권을 쥐고 있는 청와대의 권력을 제한하고 검찰 권력을 강화하여 대형 비리를 수사하게 해야 한다.", [3, 0, 0, 0]], "C": ["현 정부의 수사권과 기소권을 분리하는 검찰개혁 방향을 유지하고 기소 여부를 배심원에게 결정시키며 검찰의 권한을 견제해야 한다.", [0, 0, 0, 3]], "D": ["잘 모르겠다.", [0, 0, 0, 0]], "length": 4},
+    6: {"subject": "6. 방역 대책", "title": "일상을 되찾을 때까지 모두 힘내세요!<br> 선택지를 고르세요.", "type": "covid", "A": ["방역패스를 철회하고<br> 새로운 방안을 찾아야 한다.", [5, 3, 5, 0]], "B": ["현재의 방역 방침을<br> 개편하여 이어가야 한다.", [0, 0, 0, 5]], "C": ["잘 모르겠다.", [0, 0, 0, 0]], "length": 3},
+    7: {"subject": "7. 정치 개혁", "title": "정치 개혁 관련 공약입니다.<br> 선택지를 고르세요.", "type": "prosecution", "A": ["공수처는 정권의 흥신소로 전락했기에 즉시 폐지하고 새로운 검찰 개혁이 필요하다.", [0, 3, 3, 0]], "B": ["검찰보다는 실권을 쥐고 있는 청와대의 권력을 제한하고 검찰 권력을 강화하여 대형 비리를 수사하게 해야 한다.", [3, 0, 0, 0]], "C": ["현 정부의 수사권과 기소권을 분리하는 검찰개혁 방향을 유지하고 기소 여부를 배심원에게 결정시키며 검찰의 권한을 견제해야 한다.", [0, 0, 0, 3]], "D": ["잘 모르겠다.", [0, 0, 0, 0]], "length": 4},
+    8: {"subject": "8. 정권 교체", "title": "정권 교체의 필요성에 대해<br> 선택지를 고르세요.", "type": "regime", "A": ["정권 교체에 초점을 맞추지는 않는다.", [0, 0, 0, -1]], "B": ["현 정부는 정권교체가 절실히 필요하다.", [0, 0, 0, 0]], "length": 2},
     9: {"subject": "9. 후보의 역량", "title": "후보 개인 역량의 중요성에 대해<br> 선택지를 고르세요.", "type": "cap", "A": ["대통령은 최종 결정권자이기 때문에<br> 개인의 역량은 매우 중요하다.", [-2, 1, 0, 2]], "B": ["후보의 역량이 부족해도<br> 각 분야의 능력있는 사람들을 적재적소에 기용하면<br> 훌륭한 지도자가 될 수 있다.", [0, 0, 0, 0]], "length": 2},
 }
 var result = {
-    "yoon": {"animal": "국민의힘 <strong><윤석열></strong>", "explain": "공정과 상식으로, 국민과 함께 만드는 미래 대한민국", "img": "result-box-yoon.png", "img-small": "yoon-small.png"},
-    "ahn": {"animal": "국민의당 <strong><안철수></strong>", "explain": "5·5·5 신성장 전략,  G5 경제 강국 대한민국을 위하여", "img": "result-box-ahn.png", "img-small": "ahn-small.jpeg"},
-    "sim": {"animal": "정의당 <strong><심상정></strong>", "explain": "정의로운 나라, 정의로운 대한민국을 위해 뛰겠습니다.", "img": "result-box-sim.png", "img-small": "sim-small.jpeg"},
-    "lee": {"animal": "더불어민주당 <strong><이재명></strong>", "explain": "앞으로 제대로, 나를 위해 이재명", "img": "result-box-lee.png", "img-small": "lee-small.jpeg"}
+    "yoon": {"candidate": "국민의힘 <strong><윤석열></strong>", "explain": "공정과 상식으로, 국민과 함께 만드는 미래 대한민국", "img": "result-box-yoon.png", "img-small": "ranking-yoon-photo.png"},
+    "ahn": {"candidate": "국민의당 <strong><안철수></strong>", "explain": "5·5·5 신성장 전략,  G5 경제 강국 대한민국을 위하여", "img": "result-box-ahn.png", "img-small": "ranking-ahn-photo.png"},
+    "sim": {"candidate": "정의당 <strong><심상정></strong>", "explain": "정의로운 나라, 정의로운 대한민국을 위해 뛰겠습니다.", "img": "result-box-sim.png", "img-small": "ranking-sim-photo.png"},
+    "lee": {"candidate": "더불어민주당 <strong><이재명></strong>", "explain": "앞으로 제대로, 나를 위해 이재명", "img": "result-box-lee.png", "img-small": "ranking-lee-photo.png"}
+}
+
+var eggResult = {
+    "huh": {"candidate": "국가혁명당 <strong><허경영></strong>", "explain": "긴급 생계 지원금, 18세 이상 국민께 1억씩 지급", "img": "result-box-huh.png", "img-small": "ranking-huh-photo.png"}
 }
 
 function start() {
@@ -39,6 +43,8 @@ function egg() {
         next();
         $(this).css({'transform':'translateY(0px)'});
     }, 600);
+
+    hun();
 }
 
 $(document).on('click', '.btn-start', start);
@@ -73,10 +79,13 @@ function setNext(idx, pitem) {
     setTimeout(() => {
         $(pitem).css({'transform':'translateY(0px)'});
     }, 600);
+    
 
     setTimeout(() => {
-        next(); 
+        next(idx, pitem); 
     }, 800);
+    
+
 };
 
 function calScore(idx, point) {
@@ -90,22 +99,42 @@ function calScore(idx, point) {
     }
 }
 
-function scrollDown() {
-    $('html, body').animate({scrollTop: $(document).height()}, 500)
-};
+
+
+// function scrollDown() {
+//     $('html, body').animate({scrollTop: $(document).height()}, 500)
+// };
 
 function scrollUp() {
     $('html, body').animate({scrollTop: 0}, 500)
 };
 
+function scrollControl() {
+    console.log($(window).innerHeight());
+        console.log($(document).height());
+    if($(window).innerHeight() < $(document).height()) {
+        $('.arrow').fadeIn();
+    } else {
+        $('.arrow').fadeOut(10);
+    }
+
+    let windowBottom = $(window).scrollTop() + $(window).height();
+    if((windowBottom) == $(document).height()){
+        $('.to-top-btn').fadeIn();
+        $('.arrow').fadeOut(10);
+    } else {
+        $('.to-top-btn').fadeOut(10);
+    }
+}
 
 
 
 let rank = [0, 0, 0, 0]
 let arrange = [0, 0, 0, 0]
-function next() {
+function next(idx, pitem) {
     if (num == 10) {
-        // scrollUp();
+        scrollUp();
+        $(pitem).off('click');
 
         $('body').append(`
         <div class="loading">
@@ -123,6 +152,10 @@ function next() {
             });
         }, 5000);
 
+        setTimeout(() => {
+            $(document).find('.loading').remove();
+        }, 5000);
+
         $(".question").hide();
         $(".result").show();
 
@@ -130,6 +163,11 @@ function next() {
         rank[1] = parseInt($('#ahn').val());
         rank[2] = parseInt($('#sim').val());
         rank[3] = parseInt($('#lee').val());
+
+        if(rank[0] == rank[1] == rank[2] == rank[3]) {
+            return hun()
+        }
+        
 
         rank.sort(function(a, b) {
             return b - a;
@@ -142,9 +180,7 @@ function next() {
 
         for(let i = 0; i < cdt.length; i++) {
             if(rank[0] == parseInt(cdt.eq(i).val())) {
-                console.log(rank[0], '1등');
-                console.log(cdt.eq(i))
-                $('#animal').html(result[cdt.eq(i).data("name")]["animal"]);
+                $('#candidate').html(result[cdt.eq(i).data("name")]["candidate"]);
                 $('#explain').html(result[cdt.eq(i).data("name")]["explain"]);
                 $("#img").attr("src","img/"+ result[cdt.eq(i).data("name")]["img"]);
                 idx = i
@@ -161,11 +197,9 @@ function next() {
                 }
 
                 if(rank[j] == parseInt(cdt.eq(i).val())) {
-                    console.log('점수, 순위',rank[j], j + 1)
-                    console.log('후보자',cdt[i])
                     $('.ranking-area').eq(saveInx).html(j+1);
-                    $('.name').eq(saveInx).html(result[cdt.eq(i).data("name")]["animal"]);
-                    $('.add-explain').eq(saveInx).html(result[cdt.eq(i).data("name")]["explain"]);
+                    // $('.name').eq(saveInx).html(result[cdt.eq(i).data("name")]["candidate"]);
+                    // $('.add-explain').eq(saveInx).html(result[cdt.eq(i).data("name")]["explain"]);
                     $(".small-img").eq(saveInx).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
                     saveInx++;
                     break;
@@ -178,13 +212,7 @@ function next() {
     
 
     } else {
-        // if($(window).innerHeight() < $(document).height()) {
-        //     $('.arrow').fadeIn();
-        // } else {
-        //     $('.arrow').fadeOut();
-        // }
-
-        // $(document).on('click', '.arrow', scrollDown);
+        
 
         
 
@@ -255,4 +283,69 @@ function clip(){
 	document.execCommand("copy");
 	document.body.removeChild(textarea);
 	alert("URL이 복사되었습니다.")
+}
+
+
+
+/* huh function*/
+
+function hun() {
+    scrollUp();
+
+        $('body').append(`
+        <div class="loading">
+            <svg class="loading-circle">
+                <circle cx="50%" cy="50%" r="25"></circle>
+                <p>잠시만 기다리시오..</p>
+            </svg>
+        </div>`)
+        document.body.classList.add('before-load');
+
+        setTimeout(() => {
+            document.body.classList.remove('before-load');
+            document.querySelector('.loading').addEventListener('transitionend', (e) => {
+                document.body.removeChild(e.currentTarget);
+            });
+        }, 5000);
+
+        setTimeout(() => {
+            $(document).find('.loading').remove();
+        }, 6000);
+        $(".start").hide();
+        $(".question").hide();
+        $(".result").show();
+    $('#candidate').html(eggResult["huh"]["candidate"]);
+    $('#explain').html(eggResult["huh"]["explain"]);
+    $("#img").attr("src","img/"+ eggResult["huh"]["img"]);
+
+    $(document).find('.ranking-box').remove();
+
+    let content = `
+<div class="ranking-box-huh">
+    <div class="add-des">
+        <p><span class="ranking-area">2</span>위</p>
+    </div>
+    <div class="img-area">
+        <img class="rounded-circle mt-5 small-img" src="img/ranking-lee-photo.png" alt="candidate">
+        <p class="name"></p>
+    </div>
+    
+    <div class="img-area">
+        <img class="rounded-circle mt-5 small-img" src="img/ranking-ahn-photo.png" alt="candidate">
+        <p class="name"></p>
+    </div>
+
+    <div class="img-area">
+        <img class="rounded-circle mt-5 small-img" src="img/ranking-yoon-photo.png" alt="candidate">
+        <p class="name"></p>
+    </div>
+
+    <div class="img-area">
+        <img class="rounded-circle mt-5 small-img" src="img/ranking-sim-photo.png" alt="candidate">
+        <p class="name"></p>
+    </div>
+</div>
+    `
+    $(document).find('.rank-wrap').append(content);
+
 }
