@@ -15,7 +15,7 @@ html {
 
 body {
     background-color: #F0F0F0;
-    font-family: 'Yeon Sung', cursive;
+    font-family: 'Hahmlet', serif;
 }
 
 
@@ -23,7 +23,7 @@ body {
     position: relative;
     overflow: hidden; 
     /* min-width: 320px;    */
-    min-width: 280px;
+    /* min-width: 280px; */
 }
 
 
@@ -159,7 +159,10 @@ button:focus {
     font-size: 14px;
     color: #ff9300;
     word-break: keep-all;
+
 }
+
+
 .rectangle {
     width: 288px;
     height: 8px;
@@ -200,19 +203,27 @@ button:focus {
     position: absolute;
     top: 3.3rem;
     width: 100%;
-    font-size: 13.5px;
+    font-size: 1.4rem;
+    font-weight: bold;
     color: #000000;
     text-align: center;
+
+}
+
+.title-box {
+    position: absolute;
+    width: 100%;
+    bottom: 3.1rem;
 }
 
 .question-content {
-    position: absolute;
-    bottom: 3.3rem;
-    width: 100%;
-    font-size: 13.5px;
+    width: 17.50rem;
+    margin: 0 auto;
+    font-size: 1rem;
     color: #000000;
     word-break: keep-all;
-    margin-top: 6rem;
+    font-weight: 300;
+    line-height: 1.4rem;
 }
 
 
@@ -221,25 +232,30 @@ button:focus {
     background: transparent !important;
     width: 22.86rem;
     margin: 0 auto;
-    font-size: 13px;
+    font-size: 1.09rem;
     color: #000000 !important;
     word-break: keep-all;
     border: 7px solid #C4C4C4 !important;
     margin-bottom: 0.93rem;
-    padding: 1.00rem 0.3rem;
+    padding: 1.00rem 1rem;
     border-radius: 1.43rem;
     box-shadow: none !important;
+    text-align: left;
 }
 .btn-answer:hover {
     background-color: transparent !important;
     border: 7px solid #C4C4C4 !important;
     width: 22.86rem;
     margin: 0 auto;
-    font-size: 13px;
+    font-size: 1.09rem;
     color: #000000 !important;
     border: 7px solid #C4C4C4;
+    padding: 1.00rem 1rem;
+    border-radius: 1.43rem;
     /* font-weight: bold; */
+    box-shadow: none !important;
     margin-bottom: 0.93rem;
+    text-align: left;
 }
 
 
@@ -257,6 +273,15 @@ button:focus {
     right: 10px;
 }
 
+
+.refer-text {
+    max-width: 30.86rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-family: 'East Sea Dokdo', cursive;  
+    text-align: right;
+    margin-top: 3rem; 
+}
 
 /* 결과 화면 */
 
@@ -280,9 +305,10 @@ button:focus {
     position: absolute;
     width: 100%;
     bottom: 1rem;
-    font-size: 1rem;
+    font-size: 1.79rem;
     font-weight: 100;
     color: #000000;
+    font-family: 'East Sea Dokdo', cursive;
 }
 .result-explain {
     font-size: 1rem;
@@ -291,8 +317,9 @@ button:focus {
     margin-bottom: 2rem;
 }
 .share-message {
+    display: block;
     margin: 0 auto;
-    width: 9.43rem;
+    width: 10rem;
     height: 3.64rem;
     border: 7px solid #C4C4C4;
     font-size: 1.07rem;
@@ -312,7 +339,6 @@ button:focus {
     position: absolute;
     width: 100%;
     text-align: center;
-    margin-top: 3rem;
     font-size: 1.00rem;
     top: 3rem;
 }
@@ -428,8 +454,8 @@ button:focus {
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
-	width: 21.43rem;
-	height: 35.71rem;
+	width: 300px;
+    height: 500px;
 	background: #fff;
     z-index: 99999;
     border-radius: 20px;
@@ -458,8 +484,8 @@ button:focus {
 }
 
 .m-contents-img-box {
-    width: 100%;
-    height: 35.71rem;
+    width: 300px;
+    height: 500px;
     margin-bottom: 18px;
     background: #FF7474;
 }
@@ -478,73 +504,65 @@ button:focus {
 
 .sub-text {
     font-weight: 500;
-    font-size: 1.29rem;
     margin-bottom: 8px;
     color: #000000;
-    font-size: 1.29rem;
+    font-size: 18px;
     color: #000000;
     background: #F0F0F0;
     border: 7px solid #C4C4C4;
     box-sizing: border-box;
-    border-radius: 1.43rem;
-    width: 9.43rem;
+    border-radius: 20px;
+    width: 132px;
+    height: 51px;
     margin: 0 auto;
-    margin-bottom: 1.79rem;
+    margin-bottom: 24px;
 }
 
+
 .title {
-    font-size: 0.93rem;
+    font-size: 13px;
     color: #000000;
 }
 
 
 
+.popup > .popup-link:nth-child(1) {
+    margin-top: auto;
+}
 .popup-link {
+    font-size: 11px;
+    line-height: 16px;
     text-decoration: underline;
+    padding: 5px 5px;
+    margin-bottom: 0;
 }
 
 .text-box {
-    width: 15.00rem;
-    height: 25.43rem;
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 356px;
     border: 7px solid #C4C4C4;
     background: #F0F0F0;
-    border-radius: 1.07rem;
+    border-radius: 15px;
     color: #000000;
-    padding-top: 2.29rem; 
+    padding-top: 22px; 
 }
 
 .text {
-    width: 211px;
-    height: 109px;
-    font-size: 14px;
-    line-height: 20px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 30px;
     margin: 0 auto;
     word-break: keep-all;
     white-space: pre;
-    margin-top: 29px;
-    margin-bottom: 24px;
+    margin-top: 4px;
     text-align: left;
-    padding-left: 2.07rem;
-    margin-bottom: 6rem;
+    padding-left: 22px;
 }
 
 
-.btn-point {
-	width: 226px;
-    height: 42.07px;
-	font-weight: 500;
-    font-size: 15px;
-    line-height: 22px;
-	border: 0;
-	color: #FFFFFF;
-    background: #1E2F97;
-    border-radius: 70px;
-    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.2));
-}
 
-.btn.no {
-	background: lightblue;
-}
 
 .popup-dimmed {
 	position: absolute;
@@ -602,3 +620,19 @@ button:focus {
 
 
 
+@media screen and (max-width: 310px) {
+    .popup-layer {
+        max-width: 270px;
+    }
+    .m-contents-img-box {
+        max-width: 270px;
+    }
+    .swiper-slide {
+        max-width: 270px;
+    }
+}
+
+
+.question, .result {
+    display: block;
+}
