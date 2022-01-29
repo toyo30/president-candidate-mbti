@@ -7,9 +7,9 @@ var q = {
     4: {"subject": "4. 여성가족부", "title": "여성가족부 폐지 여부에 대해<br>선택지를 고르세요.", "type": "mog ", "A": ["여성가족부를 폐지해야 한다.", [3, 1, -3, -1]], "B": ["개편이 필요하다고 본다.", [1, 0, -1, 0]], "C": ["잘 모르겠다", [0, 0, 0, 0]], "D": ["여성 가족부는 유지되어야 한다.", [-1, 0, 1, 0]], "E": ["여성가족부를 강화해야 한다.", [-3, -1, 3, 1]], "length": 5},
     5: {"subject": "5. 논란", "title": "후보 관련 논란의 유무에 대해서<br> 선택지를 고르세요.", "type": "moral", "A": ["지도자로서 관련 논란은 중요하지 않다.", [0, 0, 0, 0]], "B": ["지도자로서 관련 논란은 중요하다.", [-1, 0, 0, -3]], "length": 2},
     6: {"subject": "6. 방역 대책", "title": "일상을 되찾을 때까지 모두 힘내세요!<br> 선택지를 고르세요.", "type": "covid", "A": ["방역패스를 철회하고<br> 새로운 방안을 찾아야 한다.", [5, 3, 5, 0]], "B": ["현재의 방역 방침을<br> 개편하여 이어가야 한다.", [0, 0, 0, 5]], "C": ["잘 모르겠다.", [0, 0, 0, 0]], "length": 3},
-    7: {"subject": "7. 정치 개혁", "title": "정치 개혁 관련 공약입니다.<br> 선택지를 고르세요.", "type": "prosecution", "A": ["정파와 연령에 관계없이 인재를<br> 등용하여 완전히 새로운 내각으로<br> 통합된 정부를 만든다.", [0, 3, 3, 0]], "B": ["분야별로 정예화된 위원회와 참모진을<br> 구성하여 전문성을 높이고<br> 권력의 집중도를 낮춘다.", [3, 0, 0, 0]], "C": ["대통령의 권한을 대폭 축소시키고<br> 정파를 가리지 않는 ‘연합정치’ 를 시행한다.", [0, 0, 0, 3]], "D": ["청와대의 각 수석 제도를<br> 즉각 폐지하고 의회 중심제로 전환한다.", [0, 0, 0, 0]], "E": ["잘 모르겠다.", [0, 0, 0, 0]], "length": 5},
+    7: {"subject": "7. 정치 개혁", "title": "정치 개혁 관련 공약입니다.<br> 선택지를 고르세요.", "type": "prosecution", "A": ["정파와 연령에 관계없이 인재를<br> 등용하여 완전히 새로운 내각으로<br> 통합된 정부를 만든다.", [0, 3, 3, 0]], "B": ["분야별로 정예화된<br> 위원회와 참모진을 구성하여<br> 전문성을 높이고<br> 권력의 집중도를 낮춘다.", [3, 0, 0, 0]], "C": ["대통령의 권한을 대폭 축소시키고<br> 정파를 가리지 않는 ‘연합정치’ 를 시행한다.", [0, 0, 0, 3]], "D": ["청와대의 각 수석 제도를<br> 즉각 폐지하고 의회 중심제로 전환한다.", [0, 0, 0, 0]], "E": ["잘 모르겠다.", [0, 0, 0, 0]], "length": 5},
     8: {"subject": "8. 정권 교체", "title": "정권 교체의 필요성에 대해<br> 선택지를 고르세요.", "type": "regime", "A": ["정권 교체에 초점을 맞추지는 않는다.", [0, 0, 0, -1]], "B": ["현 정부는 정권교체가 절실히 필요하다.", [0, 0, 0, 0]], "length": 2},
-    9: {"subject": "9. 후보의 역량", "title": "후보 개인 역량의 중요성에 대해<br> 선택지를 고르세요.", "type": "cap", "A": ["대통령은 최종 결정권자이기 때문에<br> 개인의 역량은 매우 중요하다.", [-2, 1, 0, 2]], "B": ["후보의 역량이 부족해도<br> 각 분야의 능력있는 사람들을 적재적소에 기용하면<br> 훌륭한 지도자가 될 수 있다.", [0, 0, 0, 0]], "length": 2},
+    9: {"subject": "9. 후보의 역량", "title": "후보 개인 역량의 중요성에 대해<br> 선택지를 고르세요.", "type": "cap", "A": ["대통령은 최종 결정권자이기 때문에<br> 개인의 역량은 매우 중요하다.", [-2, 1, 0, 2]], "B": ["후보의 역량이 부족해도<br> 각 분야의 능력있는 사람들을<br> 적재적소에 기용하면<br> 훌륭한 지도자가 될 수 있다.", [0, 0, 0, 0]], "length": 2},
 }
 var result = {
     "yoon": {"candidate": "국민의힘 <strong><윤석열></strong>", "explain": "공정과 상식으로, 국민과 함께 만드는 미래 대한민국", "img": "result-box-yoon.png", "img-small": "ranking-yoon-photo.png", 'target': 'yoon'},
@@ -150,9 +150,9 @@ function next(idx, pitem) {
 
         setTimeout(() => {
             document.body.classList.remove('before-load');
-            document.querySelector('.loading').addEventListener('transitionend', (e) => {
-                document.body.removeChild(e.currentTarget);
-            });
+            // document.querySelector('.loading').addEventListener('transitionend', (e) => {
+            //     document.body.removeChild(e.currentTarget);
+            // });
         }, 5000);
 
         setTimeout(() => {
@@ -308,9 +308,9 @@ function hun() {
 
         setTimeout(() => {
             document.body.classList.remove('before-load');
-            document.querySelector('.loading').addEventListener('transitionend', (e) => {
-                document.body.removeChild(e.currentTarget);
-            });
+            // document.querySelector('.loading').addEventListener('transitionend', (e) => {
+            //     document.body.removeChild(e.currentTarget);
+            // });
         }, 5000);
 
         setTimeout(() => {
@@ -360,3 +360,9 @@ function hun() {
     $(document).find('.rank-wrap').append(content);
 
 }
+
+
+
+$(document).on('click', '.reload', function() {
+    location.reload();
+});
