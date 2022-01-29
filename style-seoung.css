@@ -310,6 +310,7 @@ button:focus {
     position: relative;
     max-width: 22.86rem;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 
@@ -339,7 +340,7 @@ button:focus {
 .share-message {
     display: block;
     margin: 0 auto;
-    width: 10rem;
+    width: 12rem;
     height: 3.64rem;
     border: 7px solid #C4C4C4;
     font-size: 1.07rem;
@@ -360,7 +361,7 @@ button:focus {
     width: 100%;
     text-align: center;
     font-size: 1.00rem;
-    top: 5.5rem;
+    top: 2.5rem;
 }
 
 #img {
@@ -382,7 +383,7 @@ button:focus {
 
 
 .caution {
-    max-width: 30.86rem;
+    max-width: 22.86rem;
     margin: 0 auto;
     text-align: right;
     font-size: 1rem;
@@ -449,6 +450,7 @@ button:focus {
     max-width: 100%;
     margin: 0 auto;
     margin-top: 0 !important;
+    cursor: pointer;
 }
 
 .add-des {
@@ -555,7 +557,6 @@ button:focus {
     width: 300px;
     height: 500px;
     margin-bottom: 18px;
-    background: #FF7474;
 }
 
 
@@ -594,15 +595,19 @@ button:focus {
 
 
 
-.popup > .popup-link:nth-child(1) {
-    margin-top: auto;
-}
 .popup-link {
     font-size: 11px;
     line-height: 16px;
     text-decoration: underline;
-    padding: 5px 5px;
+    padding: 5px 0;
     margin-bottom: 0;
+    text-align: left;
+}
+
+.popup-linkbox {
+    padding: 0 25px;
+    margin-top: auto;
+
 }
 
 .text-box {
@@ -619,14 +624,15 @@ button:focus {
 
 .text {
     width: 100%;
-    font-size: 12px;
-    line-height: 30px;
+    font-size: 11px;
+    line-height: 15px;
     margin: 0 auto;
     word-break: keep-all;
     white-space: pre;
     margin-top: 4px;
     text-align: left;
-    padding-left: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -702,5 +708,26 @@ button:focus {
 
 
 .question, .result {
-    display: none;
+    display: block;
 }
+
+
+.show-pledge, .show-pledge:hover, .show-pledge:active, .show-pledge:focus, .show-pledge:visited  {
+    font-size: 1.07rem;
+    color: #000000 !important; 
+    width: 100%;
+    text-align: center;
+}
+
+
+button {
+    color: #000000 !important;
+	cursor: pointer;
+}
+
+
+:root {
+    color: #000000;
+}
+
+

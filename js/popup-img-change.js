@@ -3,352 +3,896 @@
 ( () => {
 
 
-	
 
 	let currentClick = 0;
-	let currentBtns = document.querySelectorAll('.btn-more');
-	let breakPoint = $(window).width();
 	
 	const popInfo = [
-
 		{
 			//0 test-contents
-			type: 'mobile',
-			target: 'con-test',
-			urlLength: 3,
+			type: 'yoon',
+			target: 'yoon',
+			urlLength: 9,
+			backColor: '#FF7474',
 			objs: {
 				//각 섹션을 담는 요소 
-				subText: document.querySelector('.sub-text'),
-				title: document.querySelector('.text_area .title'),
-				text: document.querySelector('.text_area .text'),
-
-
-				subTextA: $('.text-area .sub-text'),
-				titleA: $('.text-area .title'),
-				textA: $('.text-area .text'),
+				subText: $('.sub-text'),
+				title: $('.text-box .title'),
+				text: $('.text_box .text'),
+				colorBox: $('.m-contents-img-box'),
 			},
-			values: {
+			textList: [
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">1. 부동산</button>
+		<div class="text-box">
+			<strong class="title">“시장의 자정 역할 복기”</strong>
+			<p class="text">
+-  현 정부와 반대되는 정책 기조
 
-				subText_contents: `TOSEL Lab 자체 개발`,
+-  임기 내 주택 250만 호 공급
 
-				title_Contents:`TOSEL TEST`,
-				title_width: [153],
-				text_Contents: `TOSEL Lab에서 자체 개발한
-				PLACEMENT TEST를 제공하여
-				<strong>신규원생 상담 및 체계적 관리 가능</strong>`,
-				text_width: [197],
-				text_height: [109],
-				text_width_pc: [4.52],
-				text_height_pc: [1.86],
-			},
-			urlPoint: [
-				`<img src="./images/m-contents-pop-test1.png" class="swiper-slide" alt="컨텐츠테스트이미지1">`,
-				`<img src="./images/m-contents-pop-test2.png" class="swiper-slide" alt="컨텐츠테스트이미지2">`,
-				`<img src="./images/m-contents-pop-test3.png" class="swiper-slide" alt="컨텐츠테스트이미지3">`,
-			],
-			// urlPoint: {
-			// 	fir: "m-contents-pop-lms1.png",
-			// 	sec: "m-contents-pop-lms2.png",
-			// 	thi: "m-contents-pop-lms3.png",
-			// },
+-  종합 부동산세 전면 재검토
+
+-  임대기간 2년으로 재환원
+
+-  대출규제 완화                    
+						</p>
+			
+			<div class='popup-linkbox'>
+				<p class='link-sources'>[출처]</p>
+				<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=6jTG90PTl8Y')">윤석열, 1호 공약은 부동산</p>
+				<p class="popup-link" onclick="window.open('https://https://www.etnews.com/20220124000142')">윤석열, "재개발 활성화"</p>
+			</div>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">2. 대북</button>
+	<div class="text-box">
+		<strong class="title">“힘을 통한 평화 구축”</strong>
+		<p class="text">
+-  북한의 핵, 미사일 억제
+
+-  한미 동맹 강화  
+
+-  “주적은 북한” “멸공”                  
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://www.khan.co.kr/politics/politics-general/article/202201241723001')">힘을 통한 평화 구축할 것 …</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=WljGCfXXpyM')">주적은 북한 …</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">3. 경제</button>
+	<div class="text-box">
+		<strong class="title">“작은 정부”</strong>
+		<p class="text">
+-  민간이 중심이 되는 경제생태계
+
+-  정부는 돕기만, 개입 최소화
+
+-  불필요한 규제 혁파
+
+-  자유 시장 경제 구축
+
+-  민간주도의 일자리 창출 지원               
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://www.dailian.co.kr/news/view/1068209/?sc=Naver')">민간이 중심이 되는 경제생태계</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=UF9P8iCwU4g')">국민행복시대는 일자리부터 시작</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">4. 여성가족부</button>
+	<div class="text-box">
+		<strong class="title">“여성가족부 폐지”</strong>
+		<p class="text">
+-  남녀를 나누지 않고 
+아동, 가족, 인구감소 문제를 
+종합적으로 다룰 부처를 신설
+
+-  성범죄, 무고죄 처벌 강화               
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('http://www.segye.com/newsView/20220121509168?OutUrl=naver')">폐지 공약, 반드시 관철될 것</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=kY-5AivxfSw')">“여성가족부 폐지”</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">5. 논란</button>
+	<div class="text-box">
+		<strong class="title"></strong>
+		<p class="text">
+-  샤머니즘, 무속 논란
+
+-  장모 요양급여 부정 수급 혐의
+
+-  김건희 허위 이력 위조 의혹            
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://www.donga.com/news/article/all/20220118/111300346/2')">“무속 논란”</p>
+			<p class="popup-link" onclick="window.open('https://www.yna.co.kr/view/AKR20220125128451004?input=1195m')">'요양급여 불법 수급'</p>
+			<p class="popup-link" onclick="window.open('https://imnews.imbc.com/news/2022/society/article/6336292_35673.html')">'허위 이력 논란'</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">6. 방역 대책</button>
+		<div class="text-box">
+			<strong class="title">“비과학적 방역패스 철회”</strong>
+			<p class="text">
+-  비과학적 방역패스 철회
+
+-  9시 영업제한 철회
+
+-  임산부 방역패스 철회
+
+-  아동청소년 강제접종 반대
+
+-  자영업자, 소상공인 대상 
+   50조 원+ α조 지원                  
+						</p>
+			
+			<div class='popup-linkbox'>
+				<p class='link-sources'>[출처]</p>
+				<p class="popup-link" onclick="window.open('https://www.mk.co.kr/news/politics/view/2022/01/23629/')">"주먹구구식 방역패스 폐기해야"</p>
+				<p class="popup-link" onclick="window.open('https://www.seoul.co.kr/news/newsView.php?id=20220121004002&wlog_tag3=naver')">후보별 방역 패스 정책 정리</p>
+			</div>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">7.  정치개혁</button>
+	<div class="text-box">
+		<strong class="title">“기존 청와대 해체”</strong>
+		<p class="text">
+-  권력 독점 가득한 청와대 철폐
+
+-  ‘분야별 민관합동 위원회’ 개설
+	권력의 분할과 분야별 전문성
+
+-  정예화된 참모들 강화
+
+-  새로운 대통령실은 광화문
+	국민들과 소통하는 대통령
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://www.joongang.co.kr/article/25044206')">"윤석열이 꺼낸 카드"</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=uYHpNtriOP0')">"기존 청와대 해체"</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">8. 정권 교체</button>
+	<div class="text-box">
+		<strong class="title">22.01.27일 기준 여론</strong>
+		<p class="text">          
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('http://www.munhwa.com/news/view.html?no=2022012701070321302001')">설 민심 대선 여론조사</p>
+			<p class="popup-link" onclick="window.open('http://www.segye.com/newsView/20220127517344?OutUrl=naver')">정권교체 국민 여론</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">9. 개인의 역량</button>
+	<div class="text-box">
+		<strong class="title"></strong>
+		<p class="text">             
+		</p>
+		
+		<div class='popup-linkbox'>
+			<!-- <p class='link-sources'>[출처]</p> -->
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">자질 논란</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=UIc2iGyt-Y4')">2분 침묵 사건</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+			]
 		},
 
 		{
 			//1 test-contents
-			type: 'mobile',
-			target: 'con-book',
-			urlLength: 3,
+			type: 'ahn',
+			target: 'ahn',
+			urlLength: 9,
+			backColor: '#FFB077',
 			objs: {
 				//각 섹션을 담는 요소 
-				subText: document.querySelector('.text_area .sub-text'),
-				title: document.querySelector('.text_area .title'),
-				text: document.querySelector('.text_area .text'),
-
-				subTextA: $('.text-area .sub-text'),
-				titleA: $('.text-area .title'),
-				textA: $('.text-area .text'),
+				subText: $('.sub-text'),
+				title: $('.text-box .title'),
+				text: $('.text_box .text'),
+				colorBox: $('.m-contents-img-box'),
 			},
-			values: {
+			textList: [
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">6. 방역 대책</button>
+		<div class="text-box">
+			<strong class="title">“대통령 사과할 것”</strong>
+			<p class="text">
+-  백신패스,
+페널티가 아닌 인센티브 활용
 
-				subText_contents: `Book Contents`,
+-  청소년 방역 패스는 학습권 침해
 
-				title_Contents:`오프라인 학습`,
-				title_width: [150],
-				text_Contents: `TOSEL의 세분화된 레벨을 토대로,
-				각 연령에 맞는 어휘와 교과 과정과의
-				연계가 가능하도록 설계된 교재<br><br>
-				
-				READING / VOCA / GRAMMAR`,
-				text_width: [209],
-				text_height: [100],
-				text_width_pc: [5.09],
-				text_height_pc: [2.32],
-			},
-			urlPoint: [
-				`<img src="./images/m-contents-pop-book1.png" class="swiper-slide" alt="컨텐츠책이미지1">`,
-				`<img src="./images/m-contents-pop-book2.png" class="swiper-slide" alt="컨텐츠책이미지2">`,
-				`<img src="./images/m-contents-pop-book3.png" class="swiper-slide" alt="컨텐츠책이미지3">`,
-			],
+-  재택치료는 주거 취약 확진자를 방치                   
+						</p>
 			
+			<div class='popup-linkbox'>
+				<p class='link-sources'>[출처]</p>
+				<p class="popup-link" onclick="window.open('https://news.kbs.co.kr/news/view.do?ncd=5365697&ref=A')">‘청소년 방역 패스’ 학습권 침해</p>
+				<p class="popup-link" onclick="window.open('https://www.khan.co.kr/politics/election/article/202201252128005')">후보별 방역 패스 정책 정리</p>
+			</div>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">7.  정치개혁</button>
+	<div class="text-box">
+		<strong class="title">“혁신가형 정부”</strong>
+		<p class="text">
+-  청와대 수석제 폐지 → 의회 중심제
+
+-  대통령 권력 분산 → 내각 강화
+
+-  다양성과 비례성을 강화하는 
+	선거 제도 개혁
+
+-  남녀 동수 내각, 세대 연대 내각
+
+-  다원주의 연합정치	  
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://view.asiae.co.kr/article/2022012015350907067')">청와대 수석제 폐지…</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=tH7cItdC89s')">정치 대개혁 토론회</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+			]
 		},
+
 		{
 			//2 test-contents
-			type: 'mobile',
-			target: 'con-digital',
-			urlLength: 4,
+			type: 'sim',
+			target: 'sim',
+			urlLength: 9,
+			backColor: '#FFFB9C',
 			objs: {
 				//각 섹션을 담는 요소 
-				subText: document.querySelector('.text_area .sub-text'),
-				title: document.querySelector('.text_area .title'),
-				text: document.querySelector('.text_area .text'),
-
-				subTextA: $('.text-area .sub-text'),
-				titleA: $('.text-area .title'),
-				textA: $('.text-area .text'),
+				subText: $('.sub-text'),
+				title: $('.text-box .title'),
+				text: $('.text_box .text'),
+				colorBox: $('.m-contents-img-box'),
 			},
-			values: {
+			textList: [
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">1. 부동산</button>
+		<div class="text-box">
+			<strong class="title">“시장의 자정 역할 복기”</strong>
+			<p class="text">
+-  현 정부와 반대되는 정책 기조
 
-				subText_contents: `Digital Contents`,
+-  임기 내 주택 250만 호 공급
 
-				title_Contents:`온라인 학습`,
-				title_width: [126],
-				text_Contents: `영어성적을 분석한 빅데이터에
-				AI(인공지능)를 활용하여 세분화된
-				레벨로 설계한 디지털학습과정이
-				곧 출시될 예정입니다.<br><br>
-				VOCA / ENGLISEA`,
-				text_width: [224],
-				text_height: [109],
-				text_width_pc: [5.05],
-				text_height_pc: [2.86],
-			},
-			urlPoint: [
-				`<img src="./images/m-contents-pop-digital1.png" class="swiper-slide" alt="컨텐츠디지털이미지1">`,
-				`<img src="./images/m-contents-pop-digital2.png" class="swiper-slide" alt="컨텐츠디지털이미지2">`,
-				`<img src="./images/m-contents-pop-digital3.png" class="swiper-slide" alt="컨텐츠디지털이미지3">`,
-				`<img src="./images/m-contents-pop-digital4.png" class="swiper-slide" alt="컨텐츠디지털이미지4">`,
-			],
-			// urlPoint: {
-			// 	fir: "m-contents-pop-lms1.png",
-			// 	sec: "m-contents-pop-lms2.png",
-			// 	thi: "m-contents-pop-lms3.png",
-			// },
+-  종합 부동산세 전면 재검토
+
+-  임대기간 2년으로 재환원
+
+-  대출규제 완화                    
+						</p>
+			
+			<div class='popup-linkbox'>
+				<p class='link-sources'>[출처]</p>
+				<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=6jTG90PTl8Y')">윤석열, 1호 공약은 부동산</p>
+				<p class="popup-link" onclick="window.open('https://https://www.etnews.com/20220124000142')">윤석열, "재개발 활성화"</p>
+			</div>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">2. 대북</button>
+	<div class="text-box">
+		<strong class="title">“남북 상생”</strong>
+		<p class="text">
+-  금강산, DMZ 관광 추진
+
+-  실용적 외교, 할 말은 할 것
+
+-  선제타격론 비판,
+	가장 중요한 것은 안보
+
+-  文 정부와는 차별화              
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://www.edaily.co.kr/news/read?newsId=01840086632198376&mediaCodeNo=257&OutLnkChk=Y')">"화약고 속 불장난하는 어린이”</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=CWNQLZyaf_I')">강원서 “평화” 행보</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">3. 경제</button>
+	<div class="text-box">
+		<strong class="title">“작은 정부”</strong>
+		<p class="text">
+-  민간이 중심이 되는 경제생태계
+
+-  정부는 돕기만, 개입 최소화
+
+-  불필요한 규제 혁파
+
+-  자유 시장 경제 구축
+
+-  민간주도의 일자리 창출 지원               
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://www.dailian.co.kr/news/view/1068209/?sc=Naver')">민간이 중심이 되는 경제생태계</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=UF9P8iCwU4g')">국민행복시대는 일자리부터 시작</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">4. 여성가족부</button>
+	<div class="text-box">
+		<strong class="title">“기능 조정”</strong>
+		<p class="text">
+-   '성평등가족부'로 개선
+
+-  문제가 있으면 시정을 해야 한다
+	남녀 간의 갈라치기는 옳지 않다
+
+-  한국은 OECD 회원국 중에서 
+	성별 임금 격차가 가장 큰 나라				  
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://imnews.imbc.com/replay/2022/nwdesk/article/6334004_35744.html')">성평등 정책 차이는?</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=V_5eFksfopw')">4인 4색 여성가족부 존폐 논란</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">5. 논란</button>
+	<div class="text-box">
+		<strong class="title"></strong>
+		<p class="text">
+-  형수 막말 논란
+
+-  대장동 개발 특혜 의혹
+
+-  음주운전 논란
+
+-  조폭 유착 의혹         
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('http://news.kmib.co.kr/article/view.asp?arcid=0016719573&code=61111111&cp=nv')">‘이재명 형수, 소송 예고’</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=lDmu9APO4JU&t=80s')">'대장동 개발 특혜 의혹'</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=8z41xw9VVFA')">'음주 운전'</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=nSsAVAOipgc')">'조폭 유착 의혹 보도'</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">6. 방역 대책</button>
+		<div class="text-box">
+			<strong class="title">“합리적 개선”</strong>
+			<p class="text">
+-  현 정부의 정책 기조 유지
+
+-  3차 접종자에 한해서
+	영업시간 제한을 완화
+
+-  경제 방역 > 피해 보상에 집중
+
+-  임차 상인 임대료 부담 완화			 
+						</p>
+			
+			<div class='popup-linkbox'>
+				<p class='link-sources'>[출처]</p>
+				<p class="popup-link" onclick="window.open('https://www.seoul.co.kr/news/newsView.php?id=20220121004002&wlog_tag3=naver')">후보별 방역 패스 정책 정리 1</p>
+				<p class="popup-link" onclick="window.open('https://www.khan.co.kr/politics/election/article/202201252128005')">후보별 방역 패스 정책 정리 2</p>
+			</div>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">7. 정치개혁</button>
+	<div class="text-box">
+		<strong class="title">“혁신가형 정부”</strong>
+		<p class="text">
+-  청와대 수석제 폐지 → 의회 중심제
+
+-  대통령 권력 분산 → 내각 강화
+
+-  다양성과 비례성을 강화하는 
+	선거 제도 개혁
+
+-  남녀 동수 내각, 세대 연대 내각
+
+-  다원주의 연합정치
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://view.asiae.co.kr/article/2022012610203835205')">청와대 수석제 폐지…</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=TfVVoc3NqCo')">"여의도 정치 확 바꾸겠다"</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">8. 정권 교체</button>
+	<div class="text-box">
+		<strong class="title">22.01.27일 기준 여론</strong>
+		<p class="text">          
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('http://www.munhwa.com/news/view.html?no=2022012701070321302001')">설 민심 대선 여론조사</p>
+			<p class="popup-link" onclick="window.open('http://www.segye.com/newsView/20220127517344?OutUrl=naver')">정권교체 국민 여론</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+			]
 		},
 
 		{
 			//3 test-contents
-			type: 'mobile',
-			target: 'con-lms',
-			urlLength: 3,
+			type: 'lee',
+			target: 'lee',
+			urlLength: 9,
+			backColor: '#77B6FF',
 			objs: {
 				//각 섹션을 담는 요소 
-				subText: document.querySelector('.text_area .sub-text'),
-				title: document.querySelector('.text_area .title'),
-				text: document.querySelector('.text_area .text'),
-
-				subTextA: $('.text-area .sub-text'),
-				titleA: $('.text-area .title'),
-				textA: $('.text-area .text'),
+				subText: $('.sub-text'),
+				title: $('.text-box .title'),
+				text: $('.text_box .text'),
+				colorBox: $('.m-contents-img-box'),
 			},
-			values: {
+			textList: [
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">1. 부동산</button>
+		<div class="text-box">
+			<strong class="title">“시장의 자정 역할 복기”</strong>
+			<p class="text">
+-  현 정부와 반대되는 정책 기조
 
-				subText_contents: `한 눈에 볼 수 있는 학습 현황`,
+-  임기 내 주택 250만 호 공급
 
-				title_Contents:`LMS`,
-				title_width: [54],
-				text_Contents: `<strong>학생의 학습현황을 쉽고 빠르게 파악.</strong>
-				학생이 얼마나 열심히 했으며, 어떤
-				학습 상황에 있는지 바로바로 체크할
-				수 있고, 학생관리를 더 효율적으로
-				진행할 수 있습니다.`,
-				text_width: [214],
-				text_height: [109],
-				text_width_pc: [5],
-				text_height_pc: [2.79],
-			},
-			urlPoint: [
-				`<img src="./images/m-contents-pop-lms1.png" class="swiper-slide" alt="컨텐츠엘엠에스이미지1">`,
-				`<img src="./images/m-contents-pop-lms2.png" class="swiper-slide" alt="컨텐츠엘엠에스이미지2">`,
-				`<img src="./images/m-contents-pop-lms3.png" class="swiper-slide" alt="컨텐츠엘엠에스이미지3">`,
-			],
-			// urlPoint: {
-			// 	fir: "m-contents-pop-lms1.png",
-			// 	sec: "m-contents-pop-lms2.png",
-			// 	thi: "m-contents-pop-lms3.png",
-			// },
+-  종합 부동산세 전면 재검토
+
+-  임대기간 2년으로 재환원
+
+-  대출규제 완화                    
+						</p>
+			
+			<div class='popup-linkbox'>
+				<p class='link-sources'>[출처]</p>
+				<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=6jTG90PTl8Y')">윤석열, 1호 공약은 부동산</p>
+				<p class="popup-link" onclick="window.open('https://https://www.etnews.com/20220124000142')">윤석열, "재개발 활성화"</p>
+			</div>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">2. 대북</button>
+	<div class="text-box">
+		<strong class="title">“남북 상생”</strong>
+		<p class="text">
+-  금강산, DMZ 관광 추진
+
+-  실용적 외교, 할 말은 할 것
+
+-  선제타격론 비판,
+	가장 중요한 것은 안보
+
+-  文 정부와는 차별화              
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://www.edaily.co.kr/news/read?newsId=01840086632198376&mediaCodeNo=257&OutLnkChk=Y')">"화약고 속 불장난하는 어린이”</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=CWNQLZyaf_I')">강원서 “평화” 행보</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">3. 경제</button>
+	<div class="text-box">
+		<strong class="title">“작은 정부”</strong>
+		<p class="text">
+-  민간이 중심이 되는 경제생태계
+
+-  정부는 돕기만, 개입 최소화
+
+-  불필요한 규제 혁파
+
+-  자유 시장 경제 구축
+
+-  민간주도의 일자리 창출 지원               
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://www.dailian.co.kr/news/view/1068209/?sc=Naver')">민간이 중심이 되는 경제생태계</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=UF9P8iCwU4g')">국민행복시대는 일자리부터 시작</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">4. 여성가족부</button>
+	<div class="text-box">
+		<strong class="title">“기능 조정”</strong>
+		<p class="text">
+-   '성평등가족부'로 개선
+
+-  문제가 있으면 시정을 해야 한다
+	남녀 간의 갈라치기는 옳지 않다
+
+-  한국은 OECD 회원국 중에서 
+	성별 임금 격차가 가장 큰 나라				  
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://imnews.imbc.com/replay/2022/nwdesk/article/6334004_35744.html')">성평등 정책 차이는?</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=V_5eFksfopw')">4인 4색 여성가족부 존폐 논란</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">5. 논란</button>
+	<div class="text-box">
+		<strong class="title"></strong>
+		<p class="text">
+-  형수 막말 논란
+
+-  대장동 개발 특혜 의혹
+
+-  음주운전 논란
+
+-  조폭 유착 의혹         
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('http://news.kmib.co.kr/article/view.asp?arcid=0016719573&code=61111111&cp=nv')">‘이재명 형수, 소송 예고’</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=lDmu9APO4JU&t=80s')">'대장동 개발 특혜 의혹'</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=8z41xw9VVFA')">'음주 운전'</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=nSsAVAOipgc')">'조폭 유착 의혹 보도'</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">6. 방역 대책</button>
+		<div class="text-box">
+			<strong class="title">“합리적 개선”</strong>
+			<p class="text">
+-  현 정부의 정책 기조 유지
+
+-  3차 접종자에 한해서
+	영업시간 제한을 완화
+
+-  경제 방역 > 피해 보상에 집중
+
+-  임차 상인 임대료 부담 완화			 
+						</p>
+			
+			<div class='popup-linkbox'>
+				<p class='link-sources'>[출처]</p>
+				<p class="popup-link" onclick="window.open('https://www.seoul.co.kr/news/newsView.php?id=20220121004002&wlog_tag3=naver')">후보별 방역 패스 정책 정리 1</p>
+				<p class="popup-link" onclick="window.open('https://www.khan.co.kr/politics/election/article/202201252128005')">후보별 방역 패스 정책 정리 2</p>
+			</div>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">7.  정치개혁</button>
+	<div class="text-box">
+		<strong class="title">“국민 내각, 통합 정부”</strong>
+		<p class="text">
+-  정파와 연령에 상관없이 국민에게                 
+꼭 필요한 인재라면 즉시 등용
+
+-  역사상 가장 젊은 국민 내각 구성
+
+-  대변화, 대혁신
+
+-  <3040대 장관의 기용>
+   과학기술, 미래환경, 에너지, AI
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://view.asiae.co.kr/article/2022012610203835205')">"국민 내각, 통합 정부 만들 것"</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=TfVVoc3NqCo')">"여의도 정치 확 바꾸겠다"</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">8. 정권 교체</button>
+	<div class="text-box">
+		<strong class="title">22.01.27일 기준 여론</strong>
+		<p class="text">          
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('http://www.munhwa.com/news/view.html?no=2022012701070321302001')">설 민심 대선 여론조사</p>
+			<p class="popup-link" onclick="window.open('http://www.segye.com/newsView/20220127517344?OutUrl=naver')">정권교체 국민 여론</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+			]
 		},
-
 
 		{
 			//4 test-contents
-			type: 'mobile',
-			target: 'good-hyunpan',
-			urlLength: 3,
+			type: 'huh',
+			target: 'huh',
+			urlLength: 9,
+			backColor: '#C50000',
 			objs: {
 				//각 섹션을 담는 요소 
-				subText: document.querySelector('.text_area .sub-text'),
-				title: document.querySelector('.text_area .title'),
-				text: document.querySelector('.text_area .text'),
-
-				subTextA: $('.text-area .sub-text'),
-				titleA: $('.text-area .title'),
-				textA: $('.text-area .text'),
+				subText: $('.sub-text'),
+				title: $('.text-box .title'),
+				text: $('.text_box .text'),
+				colorBox: $('.m-contents-img-box'),
 			},
 			values: {
+				subText_content1: `1. 부동산`,
+				title_content1:`"시장의 자정 역할 복기"`,
 
-				subText_contents: `브랜드와 공신력 UPGRADE`,
+				text_content1: `
+-  현 정부와 반대되는 정책 기조
 
-				title_Contents:`배너&현판`,
-				title_width: [115],
-				text_Contents: `TOSEL Lab에 가입된 학원들에게는
-				지정학원 간판과 현판 시안이 제공되어
-				<strong>학원의 브랜드와 공신력 업그레이드</strong>`,
-				text_width: [211],
-				text_height: [109],
-				text_width_pc: [5.09],
-				text_height_pc: [2.32],
+-  임기 내 주택 250만 호 공급
+
+-  종합 부동산세 전면 재검토
+
+-  임대기간 2년으로 재환원
+
+-  대출규제 완화    
+`,
+				text_width1: [177],
+				text_height1: [194],
+
+				subText_content2: `2. 대북`,
+				title_content2:`“힘을 통한 평화 구축”`,
+				text_content2: `
+-  북한의 핵, 미사일 억제
+
+-  한미 동맹 강화  
+
+-  “주적은 북한” “멸공”   
+`,
+				text_width2: [177],
+				text_height2: [194],
+
+				subText_content3: `3. 경제`,
+				title_content3:`“작은 정부”`,
+				text_content3: `
+-  민간이 중심이 되는 경제생태계
+
+-  정부는 돕기만, 개입 최소화
+
+-  불필요한 규제 혁파
+
+-  자유 시장 경제 구축
+
+-  민간주도의 일자리 창출 지원  
+`,
+				text_width3: [177],
+				text_height3: [194],
+				
+				subText_content4: `4. 여성가족부`,
+				title_content4:`“여성가족부 폐지”`,
+				text_content4: `
+-  남녀를 나누지 않고 
+아동, 가족, 인구감소 문제를 
+종합적으로 다룰 부처를 신설
+
+-  성범죄, 무고죄 처벌 강화 
+`,
+				text_width4: [177],
+				text_height4: [194],
+
+				subText_content5: `5. 논란`,
+				title_content5:``,
+				text_content5: `
+-  샤머니즘, 무속 논란
+
+-  장모 요양급여 부정 수급 혐의
+
+-  김건희 허위 이력 위조 의혹
+`,
+				text_width5: [177],
+				text_height5: [194],
+
+				subText_content6: `6. 방역 대책`,
+				title_content6:`“비과학적 방역패스 철회”`,
+				text_content6: `
+-  비과학적 방역패스 철회
+
+-  9시 영업제한 철회
+
+-  임산부 방역패스 철회
+
+-  아동청소년 강제접종 반대
+
+-  자영업자, 소상공인 대상 
+	50조 원+ α조 지원
+`,
+				text_width6: [177],
+				text_height6: [194],
+
+				subText_content7: `7.  정치개혁`,
+				title_content7:`“기존 청와대 해체”`,
+				text_content7: `
+-  권력 독점 가득한 청와대 철폐
+
+-  ‘분야별 민관합동 위원회’ 개설
+	권력의 분할과 분야별 전문성
+
+-  정예화된 참모들 강화
+
+-  새로운 대통령실은 광화문
+	국민들과 소통하는 대통령
+`,
+				text_width7: [177],
+				text_height7: [194],
+
+				subText_content8: `8. 정권 교체`,
+				title_content8:`22. 01. 27 기준`,
+				text_content8: `
+
+`,
+				text_width8: [177],
+				text_height8: [194],
+
+				subText_content9: `9. 개인의 역량`,
+				title_content9:``,
+				text_content9: `
+
+`,
+				text_width9: [177],
+				text_height9: [194],
+
 			},
-			urlPoint: [
-				`<img src="./images/m-good-pop-hyunpan1.png" class="swiper-slide" alt="컨텐츠현판이미지1">`,
-				`<img src="./images/m-good-pop-hyunpan2.png" class="swiper-slide" alt="컨텐츠현판이미지2">`,
-				`<img src="./images/m-good-pop-hyunpan3.png" class="swiper-slide" alt="컨텐츠현판이미지3">`,
-			],
-			// urlPoint: {
-			// 	fir: "m-contents-pop-lms1.png",
-			// 	sec: "m-contents-pop-lms2.png",
-			// 	thi: "m-contents-pop-lms3.png",
-			// },
-		},
-
-		{
-			//5 test-contents
-			type: 'mobile',
-			target: 'good-ai',
-			urlLength: 4,
-			objs: {
-				//각 섹션을 담는 요소 
-				subText: document.querySelector('.text_area .sub-text'),
-				title: document.querySelector('.text_area .title'),
-				text: document.querySelector('.text_area .text'),
-
-				subTextA: $('.text-area .sub-text'),
-				titleA: $('.text-area .title'),
-				textA: $('.text-area .text'),
-			},
-			values: {
-
-				subText_contents: `TOSEL Lab`,
-
-				title_Contents:`AI 컨설팅 자료`,
-				title_width: [159],
-				text_Contents: `응시지역과 전국에서의 동일학년 학생들의 분포를 한 번에 파악할 수 있습니다. 이러한 통계자료를 통해 레벨별 수업 난이도 및 학습 방향을 수정 및 보완할 수 있습니다.`,
-				text_width: [224],
-				text_height: [109],
-				text_width_pc: [5.05],
-				text_height_pc: [2.79],
-			},
-			urlPoint: [
-				`<img src="./images/m-good-pop-ai1.png" class="swiper-slide" alt="컨텐츠에이아이이미지1">`,
-				`<img src="./images/m-good-pop-ai2.png" class="swiper-slide" alt="컨텐츠에이아이이미지2">`,
-				`<img src="./images/m-good-pop-ai3.png" class="swiper-slide" alt="컨텐츠에이아이이미지3">`,
-				`<img src="./images/m-good-pop-ai4.png" class="swiper-slide" alt="컨텐츠에이아이이미지4">`,
-			],
-			// urlPoint: {
-			// 	fir: "m-contents-pop-lms1.png",
-			// 	sec: "m-contents-pop-lms2.png",
-			// 	thi: "m-contents-pop-lms3.png",
-			// },
-		},
-
-		{
-			//6 test-contents
-			type: 'mobile',
-			target: 'con-test',
-			urlLength: 3,
-			objs: {
-				//각 섹션을 담는 요소 
-				subText: document.querySelector('.sub-text'),
-				title: document.querySelector('.text_area .title'),
-				text: document.querySelector('.text_area .text'),
-
-
-				subTextA: $('.text-area .sub-text'),
-				titleA: $('.text-area .title'),
-				textA: $('.text-area .text'),
-			},
-			values: {
-
-				subText_contents: `TOSEL Lab 자체 개발`,
-
-				title_Contents:`TOSEL TEST`,
-				title_width: [153],
-				text_Contents: `TOSEL Lab에서 자체 개발한
-				PLACEMENT TEST를 제공하여
-				<strong>신규원생 상담 및 체계적 관리 가능</strong>`,
-				text_width: [197],
-				text_height: [109],
-				text_width_pc: [4.52],
-				text_height_pc: [1.86],
-			},
-			urlPoint: [
-				`<img src="./images/m-contents-pop-test1.png" class="swiper-slide" alt="컨텐츠테스트이미지1">`,
-				`<img src="./images/m-contents-pop-test2.png" class="swiper-slide" alt="컨텐츠테스트이미지2">`,
-				`<img src="./images/m-contents-pop-test3.png" class="swiper-slide" alt="컨텐츠테스트이미지3">`,
-			],
-			// urlPoint: {
-			// 	fir: "m-contents-pop-lms1.png",
-			// 	sec: "m-contents-pop-lms2.png",
-			// 	thi: "m-contents-pop-lms3.png",
-			// },
-		},
-
-		{
-			//7 test-contents
-			type: 'mobile',
-			target: 'con-lms',
-			urlLength: 3,
-			objs: {
-				//각 섹션을 담는 요소 
-				subText: document.querySelector('.text_area .sub-text'),
-				title: document.querySelector('.text_area .title'),
-				text: document.querySelector('.text_area .text'),
-
-				subTextA: $('.text-area .sub-text'),
-				titleA: $('.text-area .title'),
-				textA: $('.text-area .text'),
-			},
-			values: {
-
-				subText_contents: `한 눈에 볼 수 있는 학습 현황`,
-
-				title_Contents:`LMS`,
-				title_width: [54],
-				text_Contents: `<strong>학생의 학습현황을 쉽고 빠르게 파악.</strong>
-				학생이 얼마나 열심히 했으며, 어떤
-				학습 상황에 있는지 바로바로 체크할
-				수 있고, 학생관리를 더 효율적으로
-				진행할 수 있습니다.`,
-				text_width: [214],
-				text_height: [109],
-				text_width_pc: [5],
-				text_height_pc: [2.79],
-			},
-			urlPoint: [
-				`<img src="./images/m-contents-pop-lms1.png" class="swiper-slide" alt="컨텐츠엘엠에스이미지1">`,
-				`<img src="./images/m-contents-pop-lms2.png" class="swiper-slide" alt="컨텐츠엘엠에스이미지2">`,
-				`<img src="./images/m-contents-pop-lms3.png" class="swiper-slide" alt="컨텐츠엘엠에스이미지3">`,
-			],
-			// urlPoint: {
-			// 	fir: "m-contents-pop-lms1.png",
-			// 	sec: "m-contents-pop-lms2.png",
-			// 	thi: "m-contents-pop-lms3.png",
-			// },
 		},
 
 		
 	];
 
-	
+	function changeColor() {
+		let backColor = popInfo[currentClick].backColor;
+		console.log(backColor);
+		$('.m-contents-img-box').css('background', backColor);
+		
+	}
 
 	function changeValue() {
 
@@ -387,35 +931,17 @@
 			window.swiper.destroy();
 		}
 
-	
+		window.swiper = new Swiper(".mySwiper", {
+			pagination: {
+			loop: true,
+			el: ".swiper-pagination",
+			clickable: true,
+			}
+		});
 
-		if(breakPoint < 768) {
-			window.swiper = new Swiper(".mySwiper", {
-				pagination: {
-				loop: true,
-				el: ".swiper-pagination",
-				clickable: true,
-				}
-			});
-		}else if(breakPoint >= 768)	{
-			window.swiper = new Swiper(".mySwiper", {
-				slidesPerView: 1,
-				spaceBetween: 30,
-				loop: true,
-				keyboard: {
-				enabled: true,
-				},
-				pagination: {
-				el: ".swiper-pagination",
-				clickable: true,
-				},
-				navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-				},
-			});
-		}
-
+		let backColor = popInfo[currentClick].backColor;
+		console.log(backColor);
+		$('.m-contents-img-box').css('background', backColor);
 	}
 
 
@@ -431,12 +957,10 @@
 	function urlInput() {
 		//버튼을 처음으로 초기화 
 		$('.popup .swiper-wrapper').children().remove();
-		for(let i = 0; i < popInfo[currentClick].urlPoint.length; i++){
-			// alert();
-			console.log(popInfo[currentClick].urlPoint[i], 'urlPoint');
-			let imgAdd = popInfo[currentClick].urlPoint[i];
+		for(let i = 0; i < popInfo[currentClick].textList.length; i++){
+			let addLink = popInfo[currentClick].textList[i];
 
-			$('.popup .swiper-wrapper').append(imgAdd);
+			$('.popup .swiper-wrapper').append(addLink);
 		}
 	}
 
@@ -457,24 +981,51 @@
 
 
 //currentClick을 지정하기 
-	$(document).on('click', '.btn-more', function() {
-		let target = $(this).parent().data('target');
+	$(document).on('click', '.result-img-box', function() {
+		let target = $(this).data('target');
 
-		if(target == "con-test"){ currentClick = 0}
-		else if(target == "con-book"){ currentClick = 1}
-		else if(target == "con-digital"){ currentClick = 2}
-		else if(target == "con-lms"){ currentClick = 3}
-		else if(target == "good-hyunpan"){ currentClick = 4}
-		else if(target == "good-ai"){ currentClick = 5}
-		else if(target == "good-test"){ currentClick = 6}
-		else if(target == "good-lms"){ currentClick = 7}
+		if(target == "yoon"){ currentClick = 0}
+		else if(target == "ahn"){ currentClick = 1}
+		else if(target == "sim"){ currentClick = 2}
+		else if(target == "lee"){ currentClick = 3}
+		else if(target == "huh"){ currentClick = 4}
 
+		console.log(target);
 		console.log(currentClick);
-
 		openPopup();
+		
+		
 		urlInput();
-		changeValue();
+		// changeColor();
+		// urlInput();
+		// changeValue();
+		// startSwiper();
 		startSwiper();
+
+	})
+
+	$(document).on('click', '.small-img', function() {
+		let target = $(this).data('target');
+
+		if(target == "yoon"){ currentClick = 0}
+		else if(target == "ahn"){ currentClick = 1}
+		else if(target == "sim"){ currentClick = 2}
+		else if(target == "lee"){ currentClick = 3}
+		else if(target == "huh"){ currentClick = 4}
+
+		console.log(target);
+		console.log(currentClick);
+		
+		openPopup();
+		
+		
+		urlInput();
+		
+		// changeColor();
+		startSwiper();
+		// urlInput();
+		// changeValue();
+		// startSwiper();
 		
 
 	})
@@ -482,14 +1033,14 @@
 
 	
 	
-	$(window).resize(function() {
-		breakPoint = $(window).width();
-		changeValue();
-		startSwiper();
-	})
+	// $(window).resize(function() {
+	// 	breakPoint = $(window).width();
+	// 	changeValue();
+	// 	startSwiper();
+	// })
 
-	$(window).resize(startSwiper);
+	// $(window).resize(startSwiper);
 
-
+	window.swiper = null;
 	
 })();
