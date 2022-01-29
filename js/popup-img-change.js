@@ -205,8 +205,17 @@
 <div class="slide-box">
 	<button class="sub-text">8. 정권 교체</button>
 	<div class="text-box">
-		<strong class="title">22.01.27일 기준 여론</strong>
-		<p class="text">          
+		<strong class="title">22.01.27기준 정권 교체 여론</strong>
+		<p class="text">   
+문화일보·엠브레인퍼블릭
+-  정권교체론 55.3%
+
+-  정권유지론 35.4%
+
+세계일보
+-  정권교체론 52%
+
+-  정권재창출 37.1%	
 		</p>
 		
 		<div class='popup-linkbox'>
@@ -224,9 +233,19 @@
 	<button class="sub-text">9. 개인의 역량</button>
 	<div class="text-box">
 		<strong class="title"></strong>
-		<p class="text">             
+		<p class="text">   
+국민의 힘 경선 토론회 중 자질 논란
+- 대북 전시 작전계획 질문에
+  말끝을 흐림 
+
+-  재건출관련 질문에 당황
+
+기조 연설 도중 2분 침묵
+-  대본을 보여주는 프롬프터가 
+   작동하지 않자 연설을 시작하지 않고
+   침묵		          
 		</p>
-		
+
 		<div class='popup-linkbox'>
 			<!-- <p class='link-sources'>[출처]</p> -->
 			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">자질 논란</p>
@@ -443,8 +462,19 @@
 <div class="slide-box">
 	<button class="sub-text">8. 정권 교체</button>
 	<div class="text-box">
-		<strong class="title">22.01.27일 기준 여론</strong>
-		<p class="text">          
+		<strong class="title"></strong>
+		<p class="text">   
+22.01.27기준 정권 교체 여론
+
+문화일보·엠브레인퍼블릭
+-  정권교체론 55.3%
+
+-  정권유지론 35.4%
+
+세계일보
+-  정권교체론 52%
+
+-  정권재창출 37.1%	
 		</p>
 		
 		<div class='popup-linkbox'>
@@ -657,8 +687,19 @@
 <div class="slide-box">
 	<button class="sub-text">8. 정권 교체</button>
 	<div class="text-box">
-		<strong class="title">22.01.27일 기준 여론</strong>
-		<p class="text">          
+		<strong class="title"></strong>
+		<p class="text">   
+22.01.27기준 정권 교체 여론
+
+문화일보·엠브레인퍼블릭
+-  정권교체론 55.3%
+
+-  정권유지론 35.4%
+
+세계일보
+-  정권교체론 52%
+
+-  정권재창출 37.1%	
 		</p>
 		
 		<div class='popup-linkbox'>
@@ -877,8 +918,19 @@
 <div class="slide-box">
 	<button class="sub-text">8. 정권 교체</button>
 	<div class="text-box">
-		<strong class="title">22.01.27일 기준 여론</strong>
-		<p class="text">          
+		<strong class="title"></strong>
+		<p class="text">   
+22.01.27기준 정권 교체 여론
+
+문화일보·엠브레인퍼블릭
+-  정권교체론 55.3%
+
+-  정권유지론 35.4%
+
+세계일보
+-  정권교체론 52%
+
+-  정권재창출 37.1%	
 		</p>
 		
 		<div class='popup-linkbox'>

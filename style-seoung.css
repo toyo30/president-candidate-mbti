@@ -581,7 +581,7 @@ button:focus {
     border: 7px solid #C4C4C4;
     box-sizing: border-box;
     border-radius: 20px;
-    width: 135px;
+    width: 140px;
     height: 51px;
     margin: 0 auto;
     margin-bottom: 24px;
@@ -604,10 +604,13 @@ button:focus {
     text-align: left;
 }
 
-.popup-linkbox {
-    
-    margin-top: auto;
+.link-sources {
+    font-size: 10px;
+}
 
+.popup-linkbox {
+    padding-bottom: 10px;
+    margin-top: auto;
 }
 
 .text-box {
