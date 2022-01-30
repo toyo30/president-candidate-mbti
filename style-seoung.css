@@ -49,6 +49,7 @@ button:focus {
     word-break: keep-all;
     margin-left: 2.14rem;
     font-family: 'East Sea Dokdo', cursive;
+    cursor: pointer;
 }
 
 .version {
@@ -547,7 +548,7 @@ button:focus {
     right: 21px;
     cursor: pointer;
     z-index: 1;
-    background: #F0F0F0 url(../img/m-close-btn.png) no-repeat;
+    background: #F0F0F0 url(../img/close-btn.png) no-repeat;
     background-size: contain;
     border: 3px solid #C4C4C4;
     border-radius: 0.50rem;
@@ -581,7 +582,7 @@ button:focus {
     border: 7px solid #C4C4C4;
     box-sizing: border-box;
     border-radius: 20px;
-    width: 140px;
+    width: 150px;
     height: 51px;
     margin: 0 auto;
     margin-bottom: 24px;

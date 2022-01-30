@@ -47,33 +47,51 @@ function egg() {
         $(this).css({'transform':'translateY(0px)'});
     }, 600);
 
-    hun();
+    huh();
 }
 
 $(document).on('click', '.btn-start', start);
 $(document).on('click', '.btn-egg', egg);
 
+
+let clickOne = false;
+
 $("#A").click(function(){
-    calScore(num, this);
-    setNext(num, this);
+    if(clickOne == false) {
+        clickOne = true;
+        calScore(num, this);
+        setNext(num, this);    
+    }
 });
 
 $("#B").click(function(){
-    calScore(num, this);
-    setNext(num, this);
+    if(clickOne == false) {
+        clickOne = true;
+        calScore(num, this);
+        setNext(num, this);
+    }
 });
 $("#C").click(function(){
-    calScore(num, this);
-    setNext(num, this);
+    if(clickOne == false) {
+        clickOne = true;
+        calScore(num, this);
+        setNext(num, this);
+    }
 });
 $("#D").click(function(){
-    calScore(num, this);
-    setNext(num, this);
+    if(clickOne == false) {
+        clickOne = true;
+        calScore(num, this);
+        setNext(num, this);
+    }
 });
 
 $("#E").click(function(){
-    calScore(num, this);
-    setNext(num, this);
+    if(clickOne == false) {
+        clickOne = true;
+        calScore(num, this);
+        setNext(num, this);
+    }
 });
 
 
@@ -113,8 +131,6 @@ function scrollUp() {
 };
 
 function scrollControl() {
-    console.log($(window).innerHeight());
-        console.log($(document).height());
     if($(window).innerHeight() < $(document).height()) {
         $('.arrow').fadeIn();
     } else {
@@ -150,9 +166,6 @@ function next(idx, pitem) {
 
         setTimeout(() => {
             document.body.classList.remove('before-load');
-            // document.querySelector('.loading').addEventListener('transitionend', (e) => {
-            //     document.body.removeChild(e.currentTarget);
-            // });
         }, 5000);
 
         setTimeout(() => {
@@ -167,9 +180,9 @@ function next(idx, pitem) {
         rank[2] = parseInt($('#sim').val());
         rank[3] = parseInt($('#lee').val());
 
-        if(rank[0] == rank[1] == rank[2] == rank[3]) {
-            return hun()
-        }
+        // if(rank[0] == rank[1] == rank[2] == rank[3]) {
+        //     return huh()
+        // }
         
 
         rank.sort(function(a, b) {
@@ -179,9 +192,10 @@ function next(idx, pitem) {
 
         let cdt = $('.score');
         let idx = 0
-        let saveInx = 0
+        
 
         for(let i = 0; i < cdt.length; i++) {
+            console.log(rank[0])
             if(rank[0] == parseInt(cdt.eq(i).val())) {
                 $('#candidate').html(result[cdt.eq(i).data("name")]["candidate"]);
                 $('#explain').html(result[cdt.eq(i).data("name")]["explain"]);
@@ -190,38 +204,51 @@ function next(idx, pitem) {
                 idx = i
             }
         }
-
-        for(let i = 0; i < cdt.length; i++) {
-
-            
-            for(let j = 0; j < 4; j++) {
-                console.log('h1')
-                if (i == idx) {
+        let anotherInx = 0;
+        let anotherList = [];
+        let saveInx = [];
+        // for(let i = 0; i < cdt.length; i++) {
+        //     for(let j = 0; j < 4; j++) {
+        //         if (i == idx || saveInx.includes(i)) {
+        //             break;
+        //         }
+        //         console.log('saveInx', saveInx);
+        //         console.log('small-img', $('.small-img'));
+        //         console.log('rankig-area', $('.rankig-area'));
+                
+        //         if(rank[j] == parseInt(cdt.eq(i).val())) {
+        //             $('.ranking-area').eq(anotherInx).html(j+1);
+        //             $(".small-img").eq(anotherInx).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
+        //             $(".small-img").eq(anotherInx).attr('data-target', result[cdt.eq(i).data("name")]["target"]);
+        //             saveInx.push(i);
+        //             anotherInx ++; 
+        //             break;
+        //         }
+                
+                
+        //     }
+        // }
+        for(let j = 0; j < 4; j++) {
+            for(let i = 0; i < cdt.length; i++) {
+                if(i == idx || saveInx.includes(i)) {
                     break;
                 }
-
                 if(rank[j] == parseInt(cdt.eq(i).val())) {
-                    $('.ranking-area').eq(saveInx).html(j+1);
-                    // $('.name').eq(saveInx).html(result[cdt.eq(i).data("name")]["candidate"]);
-                    // $('.add-explain').eq(saveInx).html(result[cdt.eq(i).data("name")]["explain"]);
-                    $(".small-img").eq(saveInx).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
-                    $(".small-img").eq(saveInx).attr('data-target', result[cdt.eq(i).data("name")]["target"]);
-                    saveInx++;
+                    $('.ranking-area').eq(anotherInx).html(j+1);
+                    $(".small-img").eq(anotherInx).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
+                    $(".small-img").eq(anotherInx).attr('data-target', result[cdt.eq(i).data("name")]["target"]);
+                    saveInx.push(i);
+                    anotherInx ++; 
                     break;
                 }
-                
-                
+
             }
         }
             
     
 
     } else {
-        
-
-        
-
-        $(".progress-bar").attr('style','width: calc(100/9*'+num+'%)');
+        console.log(clickOne);
         $('#subject').html(q[num]["subject"]);
         $("#title").html(q[num]["title"]);
         $("#type").val(q[num]["type"]);
@@ -268,6 +295,7 @@ function next(idx, pitem) {
             $("#E").html(q[num]["E"][0]);
         }       
         num++;
+        clickOne = false;
     }
 }
 
@@ -294,7 +322,7 @@ function clip(){
 
 /* huh function*/
 
-function hun() {
+function huh() {
     scrollUp();
 
         $('body').append(`
@@ -319,10 +347,10 @@ function hun() {
         $(".start").hide();
         $(".question").hide();
         $(".result").show();
-    $('#candidate').html(eggResult["huh"]["candidate"]);
-    $(".result-text").html(eggResult["huh"]["title"]);
-    $('#explain').html(eggResult["huh"]["explain"]);
-    $("#img").attr("src","img/"+ eggResult["huh"]["img"]);
+        $('#candidate').html(eggResult["huh"]["candidate"]);
+        $(".result-text").html(eggResult["huh"]["title"]);
+        $('#explain').html(eggResult["huh"]["explain"]);
+        $("#img").attr("src","img/"+ eggResult["huh"]["img"]);
         $(".result-img-box").attr('data-target', eggResult["huh"]["target"]);
 
 
