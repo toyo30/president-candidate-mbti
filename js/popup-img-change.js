@@ -1374,6 +1374,7 @@
 		// changeValue();
 		// startSwiper();
 		startSwiper();
+		$('.close-btn').css('background-img', 'url(../img/close-btn.png)');
 
 	})
 
@@ -1394,6 +1395,8 @@
 		
 		// changeColor();
 		startSwiper();
+
+		$('.close-btn').css('background-img', 'url(../img/close-btn.png)');
 		
 		// urlInput();
 		// changeValue();
