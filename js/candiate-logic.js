@@ -138,14 +138,19 @@ function scrollControl() {
     }
 
     let windowBottom = $(window).scrollTop() + $(window).height();
-    if((windowBottom) == $(document).height()){
-        $('.to-top-btn').fadeIn();
-        $('.arrow').fadeOut(10);
-    } else {
-        $('.to-top-btn').fadeOut(10);
-    }
+    // console.log(windowBottom);
+    // console.log($(document).height());
+    // if((windowBottom) == $(document).height()){
+    //     $('.arrow').fadeOut(10);
+    // } 
 }
 
+function goBottom() {
+
+    $('html, body').animate({scrollTop: `${$(document).height()}`}, 1000)
+}
+
+$(document).on('click', '.arrow', goBottom);
 
 
 let rank = [0, 0, 0, 0]
@@ -249,7 +254,8 @@ function next(idx, pitem) {
     
 
     } else {
-        console.log(clickOne);
+        scrollControl();
+        scrollUp();
         $('#subject').html(q[num]["subject"]);
         $("#title").html(q[num]["title"]);
         $("#type").val(q[num]["type"]);
