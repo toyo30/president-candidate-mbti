@@ -713,7 +713,7 @@ button:focus {
 
 
 .question, .result {
-    display: block;
+    display: none;
 }
 
 
@@ -741,6 +741,14 @@ button {
 }
 
 .text.huh {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.popup-link.huh {
+    font-size: 13px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
 }

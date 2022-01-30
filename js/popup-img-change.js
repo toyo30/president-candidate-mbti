@@ -1108,13 +1108,13 @@
 
 <strong>17. 화폐혁명</strong>
 
-돈의 그림만 바꾸는 화폐변경으로
-지하자금을 완전 회수하여 
+돈의 그림만 바꾸는 화폐변경
+으로 지하자금을 완전 회수하여 
 국민 전체에게 배당
 
 <strong>18. 지역혁명</strong>
 
-전남+경남=전경도, 경북+전북=
+전남+경남=전경도, 경북+전북= 
 경전도, 충청+강원= 충강도, 
 경기도+서울=서울, 전국을 4개도
 로 통합하여 지역감정 제거
@@ -1159,21 +1159,43 @@
 			<p class="text huh">
 <strong>23. 어음혁명</strong>
 
-1달의 기본 군사 훈련만 받고 전역 
-사병은 모병제로 변경 
+기업으로 받은 어음은 
+어음보험공사에 즉시 현금화 가능
 
-<strong>20. 농지혁명</strong>
+<strong>24. 생활혁명</strong>
 
-주말 농업 활동 활성화, 농업을 1차
-산업으로 제 2의 새마을 운동 시작
+이혼, 전과기록 호적 기재 금지하여
+국민의 사생활을 보호 등등
 
-<strong>21. 농약혁명</strong>
+<strong>25. 보훈혁명</strong>
 
-모든 작물에 무공해 농약 사용
+월남, 6.25 참전 용사 5억원 지급,
+참전수당 월 3백만원씩 지급
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">혁명공약 33조</button>
+		<div class="text-box huh">
+			<p class="text huh">
+<strong>26. 노동혁명</strong>
 
-<strong>22. 부패혁명</strong>
+노동자와 경영자라는 이분법을 
+기업가족협의회로 통일
 
-뇌물 준 자 처벌 x, 받은 자만 처벌
+<strong>27. 장기혁명</strong>
+
+국가에서 장기를 구매하여 지급
+
+<strong>28. 도덕혁명</strong>
+
+생일 축하금 10만원과 생일케이크, 
+생일선물을 각 가정으로 배달하며
+가족 사망시에는 대통령의 조화와
+1000만원의 금일봉을 전달한다.
 </p>
 		</div>
 	</div>
@@ -1181,30 +1203,57 @@
 				`,
 				`
 <div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">8. 정권 교체</button>
-	<div class="text-box">
-		<strong class="title">22.01.27기준 정권 교체 여론</strong>
-		<p class="text">   
-문화일보·엠브레인퍼블릭
--  정권교체론 55.3%
+	<div class="slide-box">
+		<button class="sub-text">혁명공약 33조</button>
+		<div class="text-box huh">
+			<p class="text huh">
+<strong>29. 장애혁명</strong>
 
--  정권유지론 35.4%
+장애인의 재활수당 현실화, 보행권
+지원과 3급 이상 장애자에게 국가가
+취업 우선 순위 배분
 
-세계일보
--  정권교체론 52%
+<strong>30. 주택혁명</strong>
 
--  정권재창출 37.1%	
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('http://www.munhwa.com/news/view.html?no=2022012701070321302001')">설 민심 대선 여론조사</p>
-			<p class="popup-link" onclick="window.open('http://www.segye.com/newsView/20220127517344?OutUrl=naver')">정권교체 국민 여론</p>
+소형 서민 임대아파트를 대량 건립,
+모든 기존 아파트 관리비는 구별로
+통폐합 관리
+
+<strong>31. 벌금혁명</strong>
+
+재산비례형 벌금으로 서민들의 교통
+위반은 1만원으로 감소, 중산층이상
+은 재산 정도에 따라 증가
+</p>
 		</div>
 	</div>
-</div>
-</div>	
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">혁명공약 33조</button>
+		<div class="text-box huh">
+			<p class="text huh">
+<strong>32. 카드혁명</strong>
+
+현금보다는 카드 사용을 활성화 
+하여 매년 100조원 정도의 
+탈루세금을 줄인다.
+
+<strong>33. 식수혁명</strong>
+
+4대강과 수원지의 수질을 지키기
+위해 농약을 미생물농약으로 
+바꾸고 공장폐수를 완전 차단한다.
+</p>
+			<div class='popup-linkbox'>
+				<p class='link-sources'>[출처]</p>
+				<p class="popup-link huh" onclick="window.open('http://www.daehansinbo.com/bbs/board.php?bo_table=62&wr_id=575')">허경영 혁명공약 33조</p>
+			</div>
+		</div>
+	</div>
+</div>				
 				`,
 			]		
 		},
