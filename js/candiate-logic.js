@@ -166,7 +166,7 @@ function next(idx, pitem) {
 
         setTimeout(() => {
             document.body.classList.remove('before-load');
-        }, 5000);
+        }, 4000);
 
         setTimeout(() => {
             $(document).find('.loading').remove();
@@ -207,15 +207,33 @@ function next(idx, pitem) {
         let anotherInx = 0;
         let anotherList = [];
         let saveInx = [];
-        // for(let i = 0; i < cdt.length; i++) {
-        //     for(let j = 0; j < 4; j++) {
-        //         if (i == idx || saveInx.includes(i)) {
+        for(let i = 0; i < cdt.length; i++) {
+            for(let j = 0; j < 4; j++) {
+                if (i == idx || saveInx.includes(i)) {
+                    break;
+                }
+                console.log('saveInx', saveInx);
+                console.log('small-img', $('.small-img'));
+                console.log('rankig-area', $('.rankig-area'));
+                
+                if(rank[j] == parseInt(cdt.eq(i).val())) {
+                    // $('.ranking-area').eq(anotherInx).html(j+1);
+                    $(".small-img").eq(anotherInx).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
+                    $(".small-img").eq(anotherInx).attr('data-target', result[cdt.eq(i).data("name")]["target"]);
+                    saveInx.push(i);
+                    anotherInx ++; 
+                    break;
+                }
+                
+                
+            }
+        }
+
+        // for(let j = 0; j < 4; j++) {
+        //     for(let i = 0; i < cdt.length; i++) {
+        //         if(i == idx || saveInx.includes(i)) {
         //             break;
         //         }
-        //         console.log('saveInx', saveInx);
-        //         console.log('small-img', $('.small-img'));
-        //         console.log('rankig-area', $('.rankig-area'));
-                
         //         if(rank[j] == parseInt(cdt.eq(i).val())) {
         //             $('.ranking-area').eq(anotherInx).html(j+1);
         //             $(".small-img").eq(anotherInx).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
@@ -224,26 +242,9 @@ function next(idx, pitem) {
         //             anotherInx ++; 
         //             break;
         //         }
-                
-                
-        //     }
-        // }
-        for(let j = 0; j < 4; j++) {
-            for(let i = 0; i < cdt.length; i++) {
-                if(i == idx || saveInx.includes(i)) {
-                    break;
-                }
-                if(rank[j] == parseInt(cdt.eq(i).val())) {
-                    $('.ranking-area').eq(anotherInx).html(j+1);
-                    $(".small-img").eq(anotherInx).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
-                    $(".small-img").eq(anotherInx).attr('data-target', result[cdt.eq(i).data("name")]["target"]);
-                    saveInx.push(i);
-                    anotherInx ++; 
-                    break;
-                }
 
-            }
-        }
+        //     } 
+        // }
             
     
 
@@ -339,11 +340,11 @@ function huh() {
             // document.querySelector('.loading').addEventListener('transitionend', (e) => {
             //     document.body.removeChild(e.currentTarget);
             // });
-        }, 5000);
+        }, 4000);
 
         setTimeout(() => {
             $(document).find('.loading').remove();
-        }, 6000);
+        }, 5000);
         $(".start").hide();
         $(".question").hide();
         $(".result").show();
@@ -361,9 +362,9 @@ function huh() {
 
     let content = `
 <div class="ranking-box-huh">
-    <div class="add-des">
+    <!-- <div class="add-des">
         <p><span class="ranking-area">2</span>위</p>
-    </div>
+    </div> -->
     <div class="img-area">
         <img class="rounded-circle mt-5 small-img" src="img/ranking-lee-photo.png" alt="candidate" data-target='lee'>
         <p class="name"></p>

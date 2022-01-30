@@ -2,8 +2,6 @@
 
 ( () => {
 
-
-
 	let currentClick = 0;
 	
 	const popInfo = [
@@ -277,23 +275,23 @@
 	<div class="slide-box">
 		<button class="sub-text">1. 부동산</button>
 		<div class="text-box">
-			<strong class="title">“시장의 자정 역할 복기”</strong>
+			<strong class="title">“공공과 민간의 균형”</strong>
 			<p class="text">
--  현 정부와 반대되는 정책 기조
+-  공공과 민간의 균형잡힌 주택 신설
 
 -  임기 내 주택 250만 호 공급
 
--  종합 부동산세 전면 재검토
+-   45년 초장기 주택담보대출
 
--  임대기간 2년으로 재환원
+-  외국인의 부동산 취득 규제 강화
 
--  대출규제 완화                    
+-  다주택자에 대한 보유세 강화							 
 						</p>
 			
 			<div class='popup-linkbox'>
 				<p class='link-sources'>[출처]</p>
-				<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=6jTG90PTl8Y')">윤석열, 1호 공약은 부동산</p>
-				<p class="popup-link" onclick="window.open('https://https://www.etnews.com/20220124000142')">윤석열, "재개발 활성화"</p>
+				<p class="popup-link" onclick="window.open('https://www.newspim.com/news/view/20220111000920')">"5년 간 250만호 공급...”</p>
+				<p class="popup-link" onclick="window.open('https://www.newspim.com/news/view/20220125000309')">선택2022·부동산..</p>
 			</div>
 		</div>
 	</div>
@@ -381,7 +379,7 @@
 				`
 <div class="swiper-slide">
 	<div class="slide-box">
-		<button class="sub-text">5. 논란</button>
+		<button class="sub-text">5.논란</button>
 		<div class="text-box">
 			<strong class="title">“의사 안철수”</strong>
 			<p class="text">
@@ -440,12 +438,12 @@
    → ‘국민 통합 내각’ 구성
 
 -  대통령의 권한 대폭 감소,
-정부가 아닌 행정부, 삼권 분립
+   정부가 아닌 행정부, 삼권 분립
 
 -  교육, 노동, 연금 강력한 개혁
 
 -  광화문 대통령 시대. 
-국민과 소통하는 대통령
+   국민과 소통하는 대통령
 		</p>
 		
 		<div class='popup-linkbox'>
@@ -462,10 +460,8 @@
 <div class="slide-box">
 	<button class="sub-text">8. 정권 교체</button>
 	<div class="text-box">
-		<strong class="title"></strong>
+		<strong class="title">22.01.27기준 정권 교체 여론</strong>
 		<p class="text">   
-22.01.27기준 정권 교체 여론
-
 문화일보·엠브레인퍼블릭
 -  정권교체론 55.3%
 
@@ -508,23 +504,25 @@
 	<div class="slide-box">
 		<button class="sub-text">1. 부동산</button>
 		<div class="text-box">
-			<strong class="title">“시장의 자정 역할 복기”</strong>
+			<strong class="title">“강력한 증세로 복지 증대”</strong>
 			<p class="text">
--  현 정부와 반대되는 정책 기조
+- 청년, 여성 등 세입자들의 
+  안전 보장 및 주거급여 확대 
 
--  임기 내 주택 250만 호 공급
 
--  종합 부동산세 전면 재검토
+- 임기 내 주택 200만 호 공급
 
--  임대기간 2년으로 재환원
+- 토지초과이득세 도입,
+  부동산 보유세 강화, 대출 완화 x
 
--  대출규제 완화                    
+- ‘탈수도권’
+   수도권 인구 1/3 을 지방으로						  
 						</p>
 			
 			<div class='popup-linkbox'>
 				<p class='link-sources'>[출처]</p>
-				<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=6jTG90PTl8Y')">윤석열, 1호 공약은 부동산</p>
-				<p class="popup-link" onclick="window.open('https://https://www.etnews.com/20220124000142')">윤석열, "재개발 활성화"</p>
+				<p class="popup-link" onclick="window.open('https://www.khan.co.kr/politics/election/article/202201272029005')">“공공주택 늘려 시장 안정”</p>
+				<p class="popup-link" onclick="window.open('https://www.khan.co.kr/politics/election/article/202201241644001')">“청년 주거급여 늘리고..”</p>
 			</div>
 		</div>
 	</div>
@@ -538,13 +536,13 @@
 		<strong class="title">“대화로 여는 신뢰”</strong>
 		<p class="text">
 -  북한 비핵화건, 적대시 정책 철회건 
-어떤 조건도 내걸지 않는 대화 촉구
+   어떤 조건도 내걸지 않는 대화 촉구
 
 -  남북 합의로 인한 3년간의 평화
-	파기할 이유 x
+   파기할 이유 x
 
 -  종전선언은 비핵화와 평화 체제로 
-	가는 입구로서의 의미
+   가는 입구로서의 의미
 
 -  北의 미사일, 무모함에 개탄스럽다           
 		</p>
@@ -590,15 +588,15 @@
 <div class="slide-box">
 	<button class="sub-text">4. 여성가족부</button>
 	<div class="text-box">
-		<strong class="title"> “여성가족부 강화”</strong>
+		<strong class="title">“여성가족부 강화”</strong>
 		<p class="text">
 -  여성가족부 → 성평등부로 개편
 
 -  다른 후보들의 여가부 폐지는 혐오에
-	탑승하여 표를 얻으려는 행위
+   탑승하여 표를 얻으려는 행위
 
 -  현재의 여성가족부는 제한,수동적
-	→ 강화와 개편
+   → 강화와 개편
 
 -  박살내야 할 건 여가부 아닌 성차별			  
 		</p>
@@ -666,7 +664,7 @@
 -  대통령 권력 분산 → 내각 강화
 
 -  다양성과 비례성을 강화하는 
-	선거 제도 개혁
+   선거 제도 개혁
 
 -  남녀 동수 내각, 세대 연대 내각
 
@@ -687,10 +685,8 @@
 <div class="slide-box">
 	<button class="sub-text">8. 정권 교체</button>
 	<div class="text-box">
-		<strong class="title"></strong>
+		<strong class="title">22.01.27기준 정권 교체 여론</strong>
 		<p class="text">   
-22.01.27기준 정권 교체 여론
-
 문화일보·엠브레인퍼블릭
 -  정권교체론 55.3%
 
@@ -733,23 +729,24 @@
 	<div class="slide-box">
 		<button class="sub-text">1. 부동산</button>
 		<div class="text-box">
-			<strong class="title">“시장의 자정 역할 복기”</strong>
+			<strong class="title">“정부 주도 부동산 안정화”</strong>
 			<p class="text">
--  현 정부와 반대되는 정책 기조
+- ‘정부 주도’ 재건축, 재개발
 
--  임기 내 주택 250만 호 공급
+- 임기 내 주택 311만 호 공급
 
--  종합 부동산세 전면 재검토
+- ‘국토보유세’ 신설
 
--  임대기간 2년으로 재환원
+- 취득세 최고세율 상향
 
--  대출규제 완화                    
+- 재건축·재개발 규제 완화, 
+  양도소득세 유예                   
 						</p>
 			
 			<div class='popup-linkbox'>
 				<p class='link-sources'>[출처]</p>
-				<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=6jTG90PTl8Y')">윤석열, 1호 공약은 부동산</p>
-				<p class="popup-link" onclick="window.open('https://https://www.etnews.com/20220124000142')">윤석열, "재개발 활성화"</p>
+				<p class="popup-link" onclick="window.open('https://www.fnnews.com/news/202201261803232369')">李 '공공' 尹 '민간'이 주도</p>
+				<p class="popup-link" onclick="window.open('https://newsis.com/view/?id=NISX20211230_0001707280&cID=10301&pID=10300')"> "국토보유세 도입시..”</p>
 			</div>
 		</div>
 	</div>
@@ -767,7 +764,7 @@
 -  실용적 외교, 할 말은 할 것
 
 -  선제타격론 비판,
-	가장 중요한 것은 안보
+   가장 중요한 것은 안보
 
 -  文 정부와는 차별화              
 		</p>
@@ -815,13 +812,13 @@
 	<div class="text-box">
 		<strong class="title">“기능 조정”</strong>
 		<p class="text">
--   '성평등가족부'로 개선
+- '성평등가족부'로 개선
 
--  문제가 있으면 시정을 해야 한다
-	남녀 간의 갈라치기는 옳지 않다
+- 문제가 있으면 시정을 해야 한다
+  남녀 간의 갈라치기는 옳지 않다
 
--  한국은 OECD 회원국 중에서 
-	성별 임금 격차가 가장 큰 나라				  
+- 한국은 OECD 회원국 중에서
+  성별 임금 격차가 가장 큰 나라				  
 		</p>
 		
 		<div class='popup-linkbox'>
@@ -867,14 +864,14 @@
 		<div class="text-box">
 			<strong class="title">“합리적 개선”</strong>
 			<p class="text">
--  현 정부의 정책 기조 유지
+- 현 정부의 정책 기조 유지
 
--  3차 접종자에 한해서
-	영업시간 제한을 완화
+- 3차 접종자에 한해서
+  영업시간 제한을 완화
 
--  경제 방역 > 피해 보상에 집중
+- 경제 방역 > 피해 보상에 집중
 
--  임차 상인 임대료 부담 완화			 
+- 임차 상인 임대료 부담 완화			 
 						</p>
 			
 			<div class='popup-linkbox'>
@@ -893,15 +890,15 @@
 	<div class="text-box">
 		<strong class="title">“국민 내각, 통합 정부”</strong>
 		<p class="text">
--  정파와 연령에 상관없이 국민에게                 
-꼭 필요한 인재라면 즉시 등용
+- 정파와 연령에 상관없이 국민에게                 
+  꼭 필요한 인재라면 즉시 등용
 
--  역사상 가장 젊은 국민 내각 구성
+- 역사상 가장 젊은 국민 내각 구성
 
--  대변화, 대혁신
+- 대변화, 대혁신
 
--  <3040대 장관의 기용>
-   과학기술, 미래환경, 에너지, AI
+- <3040대 장관의 기용>
+  과학기술, 미래환경, 에너지, AI
 		</p>
 		
 		<div class='popup-linkbox'>
@@ -918,10 +915,8 @@
 <div class="slide-box">
 	<button class="sub-text">8. 정권 교체</button>
 	<div class="text-box">
-		<strong class="title"></strong>
+		<strong class="title">22.01.27기준 정권 교체 여론</strong>
 		<p class="text">   
-22.01.27기준 정권 교체 여론
-
 문화일보·엠브레인퍼블릭
 -  정권교체론 55.3%
 
@@ -958,39 +953,68 @@
 				text: $('.text_box .text'),
 				colorBox: $('.m-contents-img-box'),
 			},
-			values: {
-				subText_content1: `1. 부동산`,
-				title_content1:`"시장의 자정 역할 복기"`,
+			textList: [
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">혁명공약 33조</button>
+		<div class="text-box">
+			<strong class="title">“정부 주도 부동산 안정화”</strong>
+			<p class="text">
+- ‘정부 주도’ 재건축, 재개발
 
-				text_content1: `
--  현 정부와 반대되는 정책 기조
+- 임기 내 주택 311만 호 공급
 
--  임기 내 주택 250만 호 공급
+- ‘국토보유세’ 신설
 
--  종합 부동산세 전면 재검토
+- 취득세 최고세율 상향
 
--  임대기간 2년으로 재환원
+- 재건축·재개발 규제 완화, 
+  양도소득세 유예                   
+						</p>
+			
+			<div class='popup-linkbox'>
+				<p class='link-sources'>[출처]</p>
+				<p class="popup-link" onclick="window.open('https://www.fnnews.com/news/202201261803232369')">李 '공공' 尹 '민간'이 주도</p>
+				<p class="popup-link" onclick="window.open('https://newsis.com/view/?id=NISX20211230_0001707280&cID=10301&pID=10300')"> "국토보유세 도입시..”</p>
+			</div>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">2. 대북</button>
+	<div class="text-box">
+		<strong class="title">“남북 상생”</strong>
+		<p class="text">
+-  금강산, DMZ 관광 추진
 
--  대출규제 완화    
-`,
-				text_width1: [177],
-				text_height1: [194],
+-  실용적 외교, 할 말은 할 것
 
-				subText_content2: `2. 대북`,
-				title_content2:`“힘을 통한 평화 구축”`,
-				text_content2: `
--  북한의 핵, 미사일 억제
+-  선제타격론 비판,
+   가장 중요한 것은 안보
 
--  한미 동맹 강화  
-
--  “주적은 북한” “멸공”   
-`,
-				text_width2: [177],
-				text_height2: [194],
-
-				subText_content3: `3. 경제`,
-				title_content3:`“작은 정부”`,
-				text_content3: `
+-  文 정부와는 차별화              
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://www.edaily.co.kr/news/read?newsId=01840086632198376&mediaCodeNo=257&OutLnkChk=Y')">"화약고 속 불장난하는 어린이”</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=CWNQLZyaf_I')">강원서 “평화” 행보</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">3. 경제</button>
+	<div class="text-box">
+		<strong class="title">“작은 정부”</strong>
+		<p class="text">
 -  민간이 중심이 되는 경제생태계
 
 -  정부는 돕기만, 개입 최소화
@@ -999,85 +1023,151 @@
 
 -  자유 시장 경제 구축
 
--  민간주도의 일자리 창출 지원  
-`,
-				text_width3: [177],
-				text_height3: [194],
-				
-				subText_content4: `4. 여성가족부`,
-				title_content4:`“여성가족부 폐지”`,
-				text_content4: `
--  남녀를 나누지 않고 
-아동, 가족, 인구감소 문제를 
-종합적으로 다룰 부처를 신설
+-  민간주도의 일자리 창출 지원               
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://www.dailian.co.kr/news/view/1068209/?sc=Naver')">민간이 중심이 되는 경제생태계</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=UF9P8iCwU4g')">국민행복시대는 일자리부터 시작</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">4. 여성가족부</button>
+	<div class="text-box">
+		<strong class="title">“기능 조정”</strong>
+		<p class="text">
+- '성평등가족부'로 개선
 
--  성범죄, 무고죄 처벌 강화 
-`,
-				text_width4: [177],
-				text_height4: [194],
+- 문제가 있으면 시정을 해야 한다
+  남녀 간의 갈라치기는 옳지 않다
 
-				subText_content5: `5. 논란`,
-				title_content5:``,
-				text_content5: `
--  샤머니즘, 무속 논란
+- 한국은 OECD 회원국 중에서
+  성별 임금 격차가 가장 큰 나라				  
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://imnews.imbc.com/replay/2022/nwdesk/article/6334004_35744.html')">성평등 정책 차이는?</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=V_5eFksfopw')">4인 4색 여성가족부 존폐 논란</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">5. 논란</button>
+	<div class="text-box">
+		<strong class="title"></strong>
+		<p class="text">
+-  형수 막말 논란
 
--  장모 요양급여 부정 수급 혐의
+-  대장동 개발 특혜 의혹
 
--  김건희 허위 이력 위조 의혹
-`,
-				text_width5: [177],
-				text_height5: [194],
+-  음주운전 논란
 
-				subText_content6: `6. 방역 대책`,
-				title_content6:`“비과학적 방역패스 철회”`,
-				text_content6: `
--  비과학적 방역패스 철회
+-  조폭 유착 의혹         
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('http://news.kmib.co.kr/article/view.asp?arcid=0016719573&code=61111111&cp=nv')">‘이재명 형수, 소송 예고’</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=lDmu9APO4JU&t=80s')">'대장동 개발 특혜 의혹'</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=8z41xw9VVFA')">'음주 운전'</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=nSsAVAOipgc')">'조폭 유착 의혹 보도'</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">6. 방역 대책</button>
+		<div class="text-box">
+			<strong class="title">“합리적 개선”</strong>
+			<p class="text">
+- 현 정부의 정책 기조 유지
 
--  9시 영업제한 철회
+- 3차 접종자에 한해서
+  영업시간 제한을 완화
 
--  임산부 방역패스 철회
+- 경제 방역 > 피해 보상에 집중
 
--  아동청소년 강제접종 반대
+- 임차 상인 임대료 부담 완화			 
+						</p>
+			
+			<div class='popup-linkbox'>
+				<p class='link-sources'>[출처]</p>
+				<p class="popup-link" onclick="window.open('https://www.seoul.co.kr/news/newsView.php?id=20220121004002&wlog_tag3=naver')">후보별 방역 패스 정책 정리 1</p>
+				<p class="popup-link" onclick="window.open('https://www.khan.co.kr/politics/election/article/202201252128005')">후보별 방역 패스 정책 정리 2</p>
+			</div>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">7.  정치개혁</button>
+	<div class="text-box">
+		<strong class="title">“국민 내각, 통합 정부”</strong>
+		<p class="text">
+- 정파와 연령에 상관없이 국민에게                 
+  꼭 필요한 인재라면 즉시 등용
 
--  자영업자, 소상공인 대상 
-	50조 원+ α조 지원
-`,
-				text_width6: [177],
-				text_height6: [194],
+- 역사상 가장 젊은 국민 내각 구성
 
-				subText_content7: `7.  정치개혁`,
-				title_content7:`“기존 청와대 해체”`,
-				text_content7: `
--  권력 독점 가득한 청와대 철폐
+- 대변화, 대혁신
 
--  ‘분야별 민관합동 위원회’ 개설
-	권력의 분할과 분야별 전문성
+- <3040대 장관의 기용>
+  과학기술, 미래환경, 에너지, AI
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://view.asiae.co.kr/article/2022012610203835205')">"국민 내각, 통합 정부 만들 것"</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=TfVVoc3NqCo')">"여의도 정치 확 바꾸겠다"</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">8. 정권 교체</button>
+	<div class="text-box">
+		<strong class="title">22.01.27기준 정권 교체 여론</strong>
+		<p class="text">   
+문화일보·엠브레인퍼블릭
+-  정권교체론 55.3%
 
--  정예화된 참모들 강화
+-  정권유지론 35.4%
 
--  새로운 대통령실은 광화문
-	국민들과 소통하는 대통령
-`,
-				text_width7: [177],
-				text_height7: [194],
+세계일보
+-  정권교체론 52%
 
-				subText_content8: `8. 정권 교체`,
-				title_content8:`22. 01. 27 기준`,
-				text_content8: `
-
-`,
-				text_width8: [177],
-				text_height8: [194],
-
-				subText_content9: `9. 개인의 역량`,
-				title_content9:``,
-				text_content9: `
-
-`,
-				text_width9: [177],
-				text_height9: [194],
-
-			},
+-  정권재창출 37.1%	
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('http://www.munhwa.com/news/view.html?no=2022012701070321302001')">설 민심 대선 여론조사</p>
+			<p class="popup-link" onclick="window.open('http://www.segye.com/newsView/20220127517344?OutUrl=naver')">정권교체 국민 여론</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+			]		
 		},
 
 		
