@@ -1276,8 +1276,7 @@
 		else if(target == "lee"){ currentClick = 3}
 		else if(target == "huh"){ currentClick = 4}
 
-		console.log(target);
-		console.log(currentClick);
+
 		openPopup();
 		
 		
@@ -1299,8 +1298,6 @@
 		else if(target == "lee"){ currentClick = 3}
 		else if(target == "huh"){ currentClick = 4}
 
-		console.log(target);
-		console.log(currentClick);
 		
 		openPopup();
 		
@@ -1309,12 +1306,13 @@
 		
 		// changeColor();
 		startSwiper();
+		
 		// urlInput();
 		// changeValue();
 		// startSwiper();
 		
 
-	})
+	});
 
 
 	
