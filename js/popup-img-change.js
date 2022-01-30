@@ -958,187 +958,226 @@
 <div class="swiper-slide">
 	<div class="slide-box">
 		<button class="sub-text">혁명공약 33조</button>
-		<div class="text-box">
-			<strong class="title">“정부 주도 부동산 안정화”</strong>
-			<p class="text">
-- ‘정부 주도’ 재건축, 재개발
+		<div class="text-box huh">
+			<p class="text huh">
+<strong>1. 정치혁명</strong>
 
-- 임기 내 주택 311만 호 공급
+1) 국회의원 100명으로 축소하고
+무보수 명예직으로 전환
+2) 정당지원금을 폐지하여 
+국민배당금으로 국민에게 환수
+3) 지자체 선거를 폐지하고 
+의원들의 급여를 국민배당금으로
+국민에게 환수
 
-- ‘국토보유세’ 신설
++ 국회의원 전원 정신교육대
 
-- 취득세 최고세율 상향
+<strong>2.  정당혁명</strong>
 
-- 재건축·재개발 규제 완화, 
-  양도소득세 유예                   
+무소속 출마를 원칙으로 정당
+제도를 폐지하여 패거리 정치를
+완전 청산                 
 						</p>
-			
-			<div class='popup-linkbox'>
-				<p class='link-sources'>[출처]</p>
-				<p class="popup-link" onclick="window.open('https://www.fnnews.com/news/202201261803232369')">李 '공공' 尹 '민간'이 주도</p>
-				<p class="popup-link" onclick="window.open('https://newsis.com/view/?id=NISX20211230_0001707280&cID=10301&pID=10300')"> "국토보유세 도입시..”</p>
-			</div>
 		</div>
 	</div>
 </div>				
-				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">2. 대북</button>
-	<div class="text-box">
-		<strong class="title">“남북 상생”</strong>
-		<p class="text">
--  금강산, DMZ 관광 추진
-
--  실용적 외교, 할 말은 할 것
-
--  선제타격론 비판,
-   가장 중요한 것은 안보
-
--  文 정부와는 차별화              
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('https://www.edaily.co.kr/news/read?newsId=01840086632198376&mediaCodeNo=257&OutLnkChk=Y')">"화약고 속 불장난하는 어린이”</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=CWNQLZyaf_I')">강원서 “평화” 행보</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">3. 경제</button>
-	<div class="text-box">
-		<strong class="title">“작은 정부”</strong>
-		<p class="text">
--  민간이 중심이 되는 경제생태계
-
--  정부는 돕기만, 개입 최소화
-
--  불필요한 규제 혁파
-
--  자유 시장 경제 구축
-
--  민간주도의 일자리 창출 지원               
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('https://www.dailian.co.kr/news/view/1068209/?sc=Naver')">민간이 중심이 되는 경제생태계</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=UF9P8iCwU4g')">국민행복시대는 일자리부터 시작</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">4. 여성가족부</button>
-	<div class="text-box">
-		<strong class="title">“기능 조정”</strong>
-		<p class="text">
-- '성평등가족부'로 개선
-
-- 문제가 있으면 시정을 해야 한다
-  남녀 간의 갈라치기는 옳지 않다
-
-- 한국은 OECD 회원국 중에서
-  성별 임금 격차가 가장 큰 나라				  
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('https://imnews.imbc.com/replay/2022/nwdesk/article/6334004_35744.html')">성평등 정책 차이는?</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=V_5eFksfopw')">4인 4색 여성가족부 존폐 논란</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">5. 논란</button>
-	<div class="text-box">
-		<strong class="title"></strong>
-		<p class="text">
--  형수 막말 논란
-
--  대장동 개발 특혜 의혹
-
--  음주운전 논란
-
--  조폭 유착 의혹         
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('http://news.kmib.co.kr/article/view.asp?arcid=0016719573&code=61111111&cp=nv')">‘이재명 형수, 소송 예고’</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=lDmu9APO4JU&t=80s')">'대장동 개발 특혜 의혹'</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=8z41xw9VVFA')">'음주 운전'</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=nSsAVAOipgc')">'조폭 유착 의혹 보도'</p>
-		</div>
-	</div>
-</div>
-</div>	
 				`,
 				`
 <div class="swiper-slide">
 	<div class="slide-box">
-		<button class="sub-text">6. 방역 대책</button>
-		<div class="text-box">
-			<strong class="title">“합리적 개선”</strong>
-			<p class="text">
-- 현 정부의 정책 기조 유지
+		<button class="sub-text">혁명공약 33조</button>
+		<div class="text-box huh">
+			<p class="text huh">
+<strong>3. 결혼혁명</strong>
 
-- 3차 접종자에 한해서
-  영업시간 제한을 완화
+결혼수당 1억원 지원, 
+주택자금 2억원 무이자 지원
 
-- 경제 방역 > 피해 보상에 집중
+<strong>4. 출산혁명</strong>
 
-- 임차 상인 임대료 부담 완화			 
+출산 시 3000만원 출산수당지급. 
+주부수당 월 100만원 지급 
+
+<strong>5. 노후혁명</strong>
+
+65세 이상 노인 월 70만원 지급
+
+<strong>6. 부채혁명</strong>
+
+1300조 부채 무이자융자로 전환
 						</p>
-			
-			<div class='popup-linkbox'>
-				<p class='link-sources'>[출처]</p>
-				<p class="popup-link" onclick="window.open('https://www.seoul.co.kr/news/newsView.php?id=20220121004002&wlog_tag3=naver')">후보별 방역 패스 정책 정리 1</p>
-				<p class="popup-link" onclick="window.open('https://www.khan.co.kr/politics/election/article/202201252128005')">후보별 방역 패스 정책 정리 2</p>
-			</div>
 		</div>
 	</div>
 </div>				
 				`,
 				`
 <div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">7.  정치개혁</button>
-	<div class="text-box">
-		<strong class="title">“국민 내각, 통합 정부”</strong>
-		<p class="text">
-- 정파와 연령에 상관없이 국민에게                 
-  꼭 필요한 인재라면 즉시 등용
+	<div class="slide-box">
+		<button class="sub-text">혁명공약 33조</button>
+		<div class="text-box huh">
+			<p class="text huh">
+<strong>7. 배당혁명</strong>
 
-- 역사상 가장 젊은 국민 내각 구성
+국가 1년 예산의 절반을
+국민전체의 통장으로 배분
 
-- 대변화, 대혁신
+<strong>8. 소득혁명</strong>
 
-- <3040대 장관의 기용>
-  과학기술, 미래환경, 에너지, AI
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('https://view.asiae.co.kr/article/2022012610203835205')">"국민 내각, 통합 정부 만들 것"</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=TfVVoc3NqCo')">"여의도 정치 확 바꾸겠다"</p>
+재벌과 기업들의 소득중 일부를
+국민전체의 통장으로 배분
+
+<strong>9. 세금혁명</strong>
+
+1)  36가지 세금을 1가지로 
+통일하여 탈세를 완전 차단
+2)  자동차 관련 세금 모두 제거
+3) 세금 포인트제도 실시
+→ 세금 납부실적을 포인트로 적립
+						</p>
 		</div>
 	</div>
-</div>
-</div>	
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">혁명공약 33조</button>
+		<div class="text-box huh">
+			<p class="text huh">
+<strong>10. 신불혁명</strong>
+
+신용불량자 재기를 위해 20년 
+무이자, 무담보대출 지원 (단 1회)
+
+<strong>11. 교육혁명</strong>
+
+본인이 잘하는 한 과목만 
+시험 실시, 수능은 폐지
+
+<strong>12. 사법혁명</strong>
+
+강력범 제외 모든 범죄는 재산비례
+벌금형으로, 교도소는 한 곳만 
+남기고 모두 폐쇄하여 절감된 
+죄수 관리비, 인건비를 국민 
+전체에게 국민 배당금으로 분배
+						</p>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">혁명공약 33조</button>
+		<div class="text-box huh">
+			<p class="text huh">
+<strong>13. 뉴딜혁명</strong>
+
+천여 개의 농업뉴딜단지를 조성,
+매월 급여와 숙식을 제공하고 
+식량을 완전 자급자족한다.
+
+<strong>14. 금융혁명</strong>
+
+금융실명제 완전 폐지
+
+<strong>15. 취업혁명</strong>
+
+중소기업 취업자에게 매월 
+백만원을 3년간 지원, 5년 이상 
+근무자가 창업시 3억원을 지원,
+청년 취업을 국가 책임제로 하여 
+취업까지 생계비를 지원한다.
+						</p>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">혁명공약 33조</button>
+		<div class="text-box huh">
+			<p class="text huh">
+<strong>16. 유엔혁명</strong>
+
+유엔본부 한국으로 이전. 
+국방비 절감과 한국 주도의 
+세계통일을 추진
+
+<strong>17. 화폐혁명</strong>
+
+돈의 그림만 바꾸는 화폐변경으로
+지하자금을 완전 회수하여 
+국민 전체에게 배당
+
+<strong>18. 지역혁명</strong>
+
+전남+경남=전경도, 경북+전북=
+경전도, 충청+강원= 충강도, 
+경기도+서울=서울, 전국을 4개도
+로 통합하여 지역감정 제거
+						</p>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">혁명공약 33조</button>
+		<div class="text-box huh">
+			<p class="text huh">
+<strong>19. 징병혁명</strong>
+
+1달의 기본 군사 훈련만 받고 전역 
+사병은 모병제로 변경 
+
+<strong>20. 농지혁명</strong>
+
+주말 농업 활동 활성화, 농업을 1차
+산업으로 제 2의 새마을 운동 시작
+
+<strong>21. 농약혁명</strong>
+
+모든 작물에 무공해 농약 사용
+
+<strong>22. 부패혁명</strong>
+
+뇌물 준 자 처벌 x, 받은 자만 처벌
+</p>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">혁명공약 33조</button>
+		<div class="text-box huh">
+			<p class="text huh">
+<strong>23. 어음혁명</strong>
+
+1달의 기본 군사 훈련만 받고 전역 
+사병은 모병제로 변경 
+
+<strong>20. 농지혁명</strong>
+
+주말 농업 활동 활성화, 농업을 1차
+산업으로 제 2의 새마을 운동 시작
+
+<strong>21. 농약혁명</strong>
+
+모든 작물에 무공해 농약 사용
+
+<strong>22. 부패혁명</strong>
+
+뇌물 준 자 처벌 x, 받은 자만 처벌
+</p>
+		</div>
+	</div>
+</div>				
 				`,
 				`
 <div class="swiper-slide">

@@ -736,3 +736,11 @@ button {
 }
 
 
+.text-box.huh {
+    padding-top: 0;
+}
+
+.text.huh {
+    font-size: 13px;
+    line-height: 16px;
+}
