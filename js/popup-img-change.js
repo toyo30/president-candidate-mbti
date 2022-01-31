@@ -267,12 +267,13 @@
 -  심상정 2.3%      
 
 표본오차 95%
+
 응답률 21.2%
 		</p>
 
 		<div class='popup-linkbox'>
-			<!-- <p class='link-sources'>[출처]</p> -->
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link center" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
 		</div>
 	</div>
 </div>
@@ -523,11 +524,12 @@
 -  심상정 2.3%      
 
 표본오차 95%
+
 응답률 21.2%
 		</p>
 
 		<div class='popup-linkbox'>
-			<!-- <p class='link-sources'>[출처]</p> -->
+			<p class='link-sources'>[출처]</p>
 			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
 		</div>
 	</div>
@@ -776,11 +778,12 @@
 -  심상정 2.3%      
 
 표본오차 95%
+
 응답률 21.2%
 		</p>
 
 		<div class='popup-linkbox'>
-			<!-- <p class='link-sources'>[출처]</p> -->
+			<p class='link-sources'>[출처]</p>
 			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
 		</div>
 	</div>
@@ -1035,11 +1038,12 @@
 -  심상정 2.3%      
 
 표본오차 95%
+
 응답률 21.2%
 		</p>
 
 		<div class='popup-linkbox'>
-			<!-- <p class='link-sources'>[출처]</p> -->
+			<p class='link-sources'>[출처]</p>
 			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
 		</div>
 	</div>

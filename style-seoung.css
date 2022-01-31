@@ -540,7 +540,7 @@ button:focus {
     right: 0; */
 }
 
-.close-btn {
+/* .close-btn {
     position: absolute;
     width: 21px;
     height: 21px;
@@ -552,12 +552,12 @@ button:focus {
     background-size: contain;
     border: 3px solid #C4C4C4;
     border-radius: 0.50rem;
-}
+} */
 
 .close-box {
     position: absolute;
-    width: 25px;
-    height: 20px;
+    width: 30px;
+    height: 25px;
     top: 13px;
     right: 21px;
     cursor: pointer;
@@ -761,4 +761,8 @@ button {
     font-size: 13px;
     text-align: center;
     padding: 5px 0px 5px 0px;
+}
+
+.popup-link.center {
+    text-align: center;
 }
