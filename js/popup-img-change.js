@@ -243,7 +243,7 @@
 		</p>
 
 		<div class='popup-linkbox'>
-			<!-- <p class='link-sources'>[출처]</p> -->
+			<p class='link-sources'>[출처]</p>
 			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">자질 논란</p>
 			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=UIc2iGyt-Y4')">2분 침묵 사건</p>
 		</div>

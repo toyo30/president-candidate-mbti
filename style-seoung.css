@@ -293,6 +293,7 @@ button:focus {
 .refer-box {
     width: 22.86rem;
     margin: 0 auto;
+    padding-bottom: 40px;
 }
 
 .refer-text {
@@ -765,4 +766,5 @@ button {
 
 .popup-link.center {
     text-align: center;
+    padding: 5px 25px 5px 25px;
 }
