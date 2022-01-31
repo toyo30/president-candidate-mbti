@@ -26,7 +26,7 @@
 		<div class="text-box">
 			<strong class="title">“시장의 자정 역할 복기”</strong>
 			<p class="text">
--  현 정부와 반대되는 정책 기조
+-  ‘민간 주도’ 재건축, 재개발
 
 -  임기 내 주택 250만 호 공급
 
@@ -34,7 +34,8 @@
 
 -  임대기간 2년으로 재환원
 
--  대출규제 완화                    
+-  재건축·재개발 규제 완화, 
+   대출규제 완화, 종부세 완화
 						</p>
 			
 			<div class='popup-linkbox'>
@@ -55,9 +56,13 @@
 		<p class="text">
 -  북한의 핵, 미사일 억제
 
+-  최악의 상황 시 ‘선제 타격론’
+
 -  한미 동맹 강화  
 
--  “주적은 북한” “멸공”                  
+-  “주적은 북한” “멸공”
+
+-  압도적인 힘으로 도발 의지 무력화                
 		</p>
 		
 		<div class='popup-linkbox'>
@@ -78,11 +83,11 @@
 		<p class="text">
 -  민간이 중심이 되는 경제생태계
 
--  정부는 돕기만, 개입 최소화
+-  정부는 최대한의 지원만 할 뿐,
+   개입은 최소화
 
 -  불필요한 규제 혁파
-
--  자유 시장 경제 구축
+   자유 시장 경제 구축
 
 -  민간주도의 일자리 창출 지원               
 		</p>
@@ -246,6 +251,33 @@
 </div>
 </div>	
 				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">10. 지지율</button>
+	<div class="text-box">
+		<strong class="title">22.01.31 대선후보 지지율</strong>
+		<p class="text">   
+-  윤석열 37.8%
+
+-  이재명 33.2%
+
+-  안철수 11.1%
+
+-  심상정 2.3%      
+
+표본오차 95%
+응답률 21.2%
+		</p>
+
+		<div class='popup-linkbox'>
+			<!-- <p class='link-sources'>[출처]</p> -->
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
 			]
 		},
 
@@ -274,7 +306,7 @@
 
 -  임기 내 주택 250만 호 공급
 
--   45년 초장기 주택담보대출
+-  45년 초장기 주택담보대출
 
 -  외국인의 부동산 취득 규제 강화
 
@@ -374,7 +406,7 @@
 	<div class="slide-box">
 		<button class="sub-text">5.논란</button>
 		<div class="text-box">
-			<strong class="title">“의사 안철수”</strong>
+			<strong class="title"></strong>
 			<p class="text">
 -  거짓 독일 유학 논란
 
@@ -475,6 +507,33 @@
 </div>
 </div>	
 				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">10. 지지율</button>
+	<div class="text-box">
+		<strong class="title">22.01.31 대선후보 지지율</strong>
+		<p class="text">   
+-  윤석열 37.8%
+
+-  이재명 33.2%
+
+-  안철수 11.1%
+
+-  심상정 2.3%      
+
+표본오차 95%
+응답률 21.2%
+		</p>
+
+		<div class='popup-linkbox'>
+			<!-- <p class='link-sources'>[출처]</p> -->
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
 			]
 		},
 
@@ -554,23 +613,24 @@
 <div class="slide-box">
 	<button class="sub-text">3. 경제</button>
 	<div class="text-box">
-		<strong class="title">“작은 정부”</strong>
+		<strong class="title">“지방, 환경과 공존하는 나라”</strong>
 		<p class="text">
--  민간이 중심이 되는 경제생태계
+-  수도권과 지방의 공존
+   세대, 성별간의 공존
 
--  정부는 돕기만, 개입 최소화
+-  70개의 혁신도시, 인프라 성장 집중
 
--  불필요한 규제 혁파
+-  그린노믹스, 녹색 일자리 집중 투자
 
--  자유 시장 경제 구축
+-  지역 재생에너지 발전 등 그린 전환
 
--  민간주도의 일자리 창출 지원               
+-  주 4일 근무제 도입          
 		</p>
 		
 		<div class='popup-linkbox'>
 			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('https://www.dailian.co.kr/news/view/1068209/?sc=Naver')">민간이 중심이 되는 경제생태계</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=UF9P8iCwU4g')">국민행복시대는 일자리부터 시작</p>
+			<p class="popup-link" onclick="window.open('http://www.gukjenews.com/news/articleView.html?idxno=2395560')">녹색 일자리 150만개 창출</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=yxheKxDmkU8')">"그린노믹스로 150만 개 일자리 창출"</p>
 		</div>
 	</div>
 </div>
@@ -700,6 +760,33 @@
 </div>
 </div>	
 				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">10. 지지율</button>
+	<div class="text-box">
+		<strong class="title">22.01.31 대선후보 지지율</strong>
+		<p class="text">   
+-  윤석열 37.8%
+
+-  이재명 33.2%
+
+-  안철수 11.1%
+
+-  심상정 2.3%      
+
+표본오차 95%
+응답률 21.2%
+		</p>
+
+		<div class='popup-linkbox'>
+			<!-- <p class='link-sources'>[출처]</p> -->
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
 			]
 		},
 
@@ -739,7 +826,7 @@
 			<div class='popup-linkbox'>
 				<p class='link-sources'>[출처]</p>
 				<p class="popup-link" onclick="window.open('https://www.fnnews.com/news/202201261803232369')">李 '공공' 尹 '민간'이 주도</p>
-				<p class="popup-link" onclick="window.open('https://newsis.com/view/?id=NISX20211230_0001707280&cID=10301&pID=10300')"> "국토보유세 도입시..”</p>
+				<p class="popup-link" onclick="window.open('https://newsis.com/view/?id=NISX20211230_0001707280&cID=10301&pID=10300')">"국토보유세 도입시..”</p>
 			</div>
 		</div>
 	</div>
@@ -759,7 +846,9 @@
 -  선제타격론 비판,
    가장 중요한 것은 안보
 
--  文 정부와는 차별화              
+-  文 정부와는 차별화
+
+-  최근에는 미사일에 대한 강한 비판
 		</p>
 		
 		<div class='popup-linkbox'>
@@ -776,23 +865,23 @@
 <div class="slide-box">
 	<button class="sub-text">3. 경제</button>
 	<div class="text-box">
-		<strong class="title">“작은 정부”</strong>
+		<strong class="title">“사회 서비스 대전환”</strong>
 		<p class="text">
--  민간이 중심이 되는 경제생태계
+-  디지털에 135조 투자 
+   일자리 200만개 신설
 
--  정부는 돕기만, 개입 최소화
+-  정부의 대대적인 투자
+   창의·혁신의 성장, 규제 합리화
 
--  불필요한 규제 혁파
+-  메타버스, 디지털 정부
 
--  자유 시장 경제 구축
-
--  민간주도의 일자리 창출 지원               
+-  코스피 5000, 국민소득 5만 달러       
 		</p>
 		
 		<div class='popup-linkbox'>
 			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('https://www.dailian.co.kr/news/view/1068209/?sc=Naver')">민간이 중심이 되는 경제생태계</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=UF9P8iCwU4g')">국민행복시대는 일자리부터 시작</p>
+			<p class="popup-link" onclick="window.open('https://www.chosun.com/politics/election2022/2022/01/12/LUIXDHZWRBCKVGFSC2TRCAPEQU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news')">“디지털에 135조 투자”</p>
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=GKXhHpLKfVY')">“디지털에 135조 투자 (영상)”</p>
 		</div>
 	</div>
 </div>
@@ -925,6 +1014,33 @@
 			<p class='link-sources'>[출처]</p>
 			<p class="popup-link" onclick="window.open('http://www.munhwa.com/news/view.html?no=2022012701070321302001')">설 민심 대선 여론조사</p>
 			<p class="popup-link" onclick="window.open('http://www.segye.com/newsView/20220127517344?OutUrl=naver')">정권교체 국민 여론</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">10. 지지율</button>
+	<div class="text-box">
+		<strong class="title">22.01.31 대선후보 지지율</strong>
+		<p class="text">   
+-  윤석열 37.8%
+
+-  이재명 33.2%
+
+-  안철수 11.1%
+
+-  심상정 2.3%      
+
+표본오차 95%
+응답률 21.2%
+		</p>
+
+		<div class='popup-linkbox'>
+			<!-- <p class='link-sources'>[출처]</p> -->
+			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
 		</div>
 	</div>
 </div>
