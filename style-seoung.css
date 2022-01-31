@@ -443,7 +443,7 @@ button:focus {
 }
 
 .img-area {
-    width: 4rem;
+    width: 4.5rem;
     height: 4.8rem;
 }
 
@@ -557,9 +557,9 @@ button:focus {
 
 .close-box {
     position: absolute;
-    width: 30px;
-    height: 25px;
-    top: 13px;
+    width: 35px;
+    height: 32px;
+    top: 9px;
     right: 21px;
     cursor: pointer;
     z-index: 1;

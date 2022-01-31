@@ -210,6 +210,7 @@ function next(idx, pitem) {
                 idx = i
             }
         }
+        
         let anotherInx = 0;
         let anotherList = [];
         let saveInx = [];
