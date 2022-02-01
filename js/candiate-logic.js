@@ -111,6 +111,7 @@ function setNext(idx, pitem) {
 
 };
 
+
 function calScore(idx, point) {
     let target = $(point).data("target");
     let preValue = $('.score');
