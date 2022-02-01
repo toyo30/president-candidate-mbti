@@ -6,6 +6,13 @@
     overflow: hidden;
 }
 
+.clearfix:after {
+    content: '';
+    clear:both;
+    display: block;
+}
+
+
 
 html {
     font-size: 14px;
@@ -385,12 +392,13 @@ button:focus {
 
 
 .caution {
-    max-width: 22.86rem;
+    width: 22.86rem;
     margin: 0 auto;
     text-align: right;
     font-size: 1rem;
     white-space: pre;
     font-family: 'East Sea Dokdo', cursive;
+    padding: 3rem 0;
 }
 
 
@@ -767,4 +775,46 @@ button {
 .popup-link.center {
     text-align: center;
     padding: 5px 25px 5px 25px;
+}
+
+
+.share-box {
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.insta-text {
+    display: none;
+}
+
+.add-insta {
+    width: 42px;
+    height: 42px;
+    padding: 5px;
+    margin: 0 5px 5px 2px;
+    background: #ff2bb7 url('./img/icon-instagram.png') no-repeat;
+    background-size: contain;
+    background-position: 0.7px 0px;
+    float: left;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    animation-duration: .3s;
+}
+
+.addthis_inline_share_toolbox {
+    margin: 0;
+}
+
+
+
+@media screen and (min-width: 980px) {
+    .insta-text {
+        display: inline-block;
+    }
+    
+    
 }
