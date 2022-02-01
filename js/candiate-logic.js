@@ -223,22 +223,7 @@ function next(idx, pitem) {
             }
         }
 
-        // for(let j = 0; j < 4; j++) {
-        //     for(let i = 0; i < cdt.length; i++) {
-        //         if(i == idx || saveInx.includes(i)) {
-        //             break;
-        //         }
-        //         if(rank[j] == parseInt(cdt.eq(i).val())) {
-        //             $('.ranking-area').eq(anotherInx).html(j+1);
-        //             $(".small-img").eq(anotherInx).attr("src","img/"+ result[cdt.eq(i).data("name")]["img-small"]);
-        //             $(".small-img").eq(anotherInx).attr('data-target', result[cdt.eq(i).data("name")]["target"]);
-        //             saveInx.push(i);
-        //             anotherInx ++; 
-        //             break;
-        //         }
 
-        //     } 
-        // }
             
     
 
