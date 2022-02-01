@@ -15,7 +15,7 @@
 
 
 html {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
@@ -69,7 +69,17 @@ button:focus {
     max-width: 375px;
     margin: 0 auto;
     margin-top: 2.29rem;
+    border: 1.07rem solid #C4C4C4;
+    border-radius: 1.43rem;
 }
+
+.main-des {
+    font-size: 1rem;
+    padding: 1.07rem;
+    word-break: keep-all;
+    white-space: pre;
+}
+
 
 .main-img {
     display: block;
@@ -266,6 +276,12 @@ button:focus {
     text-align: left;
 }
 
+
+
+/* <input type="hidden" id="yoon" class="score" value="0" data-name="yoon">
+<input type="hidden" id="ahn" class="score" value="0" data-name="ahn">
+<input type="hidden" id="sim" class="score" value="0" data-name="sim">
+<input type="hidden" id="lee" class="score" value="0" data-name="lee"> */
 /* .to-top-btn {
     position: fixed;
     width: 40px;
