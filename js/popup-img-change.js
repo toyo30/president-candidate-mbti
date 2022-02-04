@@ -126,32 +126,8 @@
 				`,
 				`
 <div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">5. 논란</button>
-	<div class="text-box">
-		<strong class="title"></strong>
-		<p class="text">
--  샤머니즘, 무속 논란
-
--  장모 요양급여 부정 수급 혐의
-
--  김건희 허위 이력 위조 의혹            
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('https://www.donga.com/news/article/all/20220118/111300346/2')">“무속 논란”</p>
-			<p class="popup-link" onclick="window.open('https://www.yna.co.kr/view/AKR20220125128451004?input=1195m')">'요양급여 불법 수급'</p>
-			<p class="popup-link" onclick="window.open('https://imnews.imbc.com/news/2022/society/article/6336292_35673.html')">'허위 이력 논란'</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
 	<div class="slide-box">
-		<button class="sub-text">6. 방역 대책</button>
+		<button class="sub-text">5. 방역 대책</button>
 		<div class="text-box">
 			<strong class="title">“비과학적 방역패스 철회”</strong>
 			<p class="text">
@@ -179,7 +155,7 @@
 				`
 <div class="swiper-slide">
 <div class="slide-box">
-	<button class="sub-text">7.  정치개혁</button>
+	<button class="sub-text">6.  정치개혁</button>
 	<div class="text-box">
 		<strong class="title">“기존 청와대 해체”</strong>
 		<p class="text">
@@ -329,30 +305,7 @@
 				`
 <div class="swiper-slide">
 	<div class="slide-box">
-		<button class="sub-text">5.논란</button>
-		<div class="text-box">
-			<strong class="title"></strong>
-			<p class="text">
--  거짓 독일 유학 논란
-
-
--  천안함 유족 자리 양보 요구 
-   및 고소 협박			 
-						</p>
-			
-			<div class='popup-linkbox'>
-				<p class='link-sources'>[출처]</p>
-				<p class="popup-link" onclick="window.open('https://www.ajunews.com/view/20180822083215165#PL2')">왜 안철수는 비상계단으로...</p>
-				<p class="popup-link" onclick="window.open('https://www.seoul.co.kr/news/newsView.php?id=20170418500085')">‘천안함 유족 몰아낸 일’</p>
-			</div>
-		</div>
-	</div>
-</div>				
-				`,
-				`
-<div class="swiper-slide">
-	<div class="slide-box">
-		<button class="sub-text">6. 방역 대책</button>
+		<button class="sub-text">5. 방역 대책</button>
 		<div class="text-box">
 			<strong class="title">“의사 안철수”</strong>
 			<p class="text">
@@ -380,7 +333,7 @@
 				`
 <div class="swiper-slide">
 <div class="slide-box">
-	<button class="sub-text">7. 정치개혁</button>
+	<button class="sub-text">6. 정치개혁</button>
 	<div class="text-box">
 		<strong class="title">“연합 정치”</strong>
 		<p class="text">
@@ -536,26 +489,8 @@
 				`,
 				`
 <div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">5. 논란</button>
-	<div class="text-box">
-		<strong class="title"></strong>
-		<p class="text">
--  메갈리아 옹호 논란      
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('http://news.heraldcorp.com/view.php?ud=20160805000755')">‘정의당, 메갈 후폭풍’</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
 	<div class="slide-box">
-		<button class="sub-text">6. 방역 대책</button>
+		<button class="sub-text">5. 방역 대책</button>
 		<div class="text-box">
 			<strong class="title">“대통령 사과할 것”</strong>
 			<p class="text">
@@ -579,7 +514,7 @@
 				`
 <div class="swiper-slide">
 <div class="slide-box">
-	<button class="sub-text">7. 정치개혁</button>
+	<button class="sub-text">6. 정치개혁</button>
 	<div class="text-box">
 		<strong class="title">“혁신가형 정부”</strong>
 		<p class="text">
@@ -731,35 +666,8 @@
 				`,
 				`
 <div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">5. 논란</button>
-	<div class="text-box">
-		<strong class="title"></strong>
-		<p class="text">
--  형수 막말 논란
-
--  대장동 개발 특혜 의혹
-
--  음주운전 논란
-
--  조폭 유착 의혹         
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('http://news.kmib.co.kr/article/view.asp?arcid=0016719573&code=61111111&cp=nv')">‘이재명 형수, 소송 예고’</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=lDmu9APO4JU&t=80s')">'대장동 개발 특혜 의혹'</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=8z41xw9VVFA')">'음주 운전'</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=nSsAVAOipgc')">'조폭 유착 의혹 보도'</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
 	<div class="slide-box">
-		<button class="sub-text">6. 방역 대책</button>
+		<button class="sub-text">5. 방역 대책</button>
 		<div class="text-box">
 			<strong class="title">“합리적 개선”</strong>
 			<p class="text">
@@ -785,7 +693,7 @@
 				`
 <div class="swiper-slide">
 <div class="slide-box">
-	<button class="sub-text">7.  정치개혁</button>
+	<button class="sub-text">6.  정치개혁</button>
 	<div class="text-box">
 		<strong class="title">“국민 내각, 통합 정부”</strong>
 		<p class="text">
@@ -1256,23 +1164,8 @@
 				`,
 				`
 <div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">5. 논란</button>
-	<div class="text-box">
-		<strong class="title"></strong>
-		<p class="text">    
-		</p>
-		
-		<div class='popup-linkbox'>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
 	<div class="slide-box">
-		<button class="sub-text">6. 방역 대책</button>
+		<button class="sub-text">5. 방역 대책</button>
 		<div class="text-box">
 			<strong class="title">"과감·신속한 지원 원칙 적용"</strong>
 			<p class="text">
@@ -1297,7 +1190,7 @@
 				`
 <div class="swiper-slide">
 <div class="slide-box">
-	<button class="sub-text">7. 정치개혁</button>
+	<button class="sub-text">6. 정치개혁</button>
 	<div class="text-box">
 		<strong class="title">“권력구조 대개혁”</strong>
 		<p class="text">
