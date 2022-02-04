@@ -45,54 +45,133 @@
         <article class="start">
             <h1 class="main-title mt-5 text-center" onclick="location.href='/'">청와대의 주인<span class="version">2022 ver.</span></h1>
             <div class="main-img-box">
-<p class='main-des'>안녕하세요, ‘청와대의 주인’ 프로젝트 제작팀입니다.
-
-정치라는 분야에 너무 가볍게 접근하고 많은 부분들을 
-신중하게 검토하지 못한 것 같아 사과의 말씀을 드립니다. 
-
-프로젝트는 잠정 중단하고 정책 공약을 정리해 놓은 
-사이트로 변경하는 것에 충분한 검토를 거치려고 합니다. 
-
-피드백을 주신 모든 분들,
-관심을 가지고 홈페이지를 이용해 주신 모든 분들께
-
-다시 한번 감사의 말씀을 드립니다.          
-</p>
+                <img src="./img/main-img-box.png" alt="매인이미지">
+                <img class='img-area yoon' data-target='yoon' src="./img/ranking-yoon-photo.png" alt="윤후보">
+                <img class='img-area ahn' data-target='ahn' src="./img/ranking-ahn-photo.png" alt="안후보">
+                <img class='img-area sim' data-target='sim' src="./img/ranking-sim-photo.png" alt="심후보">
+                <img class='img-area lee' data-target='lee' src="./img/ranking-lee-photo.png" alt="이후보">
+                <img class='img-area kim' data-target='kim' src="./img/ranking-kim-photo.png" alt="김후보">
+                <img class='img-area huh' data-target='huh' src="./img/ranking-huh-photo.png" alt="허후보">
             </div> 
-            <!-- <img class="main-img" src="./img/main-title.png" alt="메인타이틀"> -->
-
-            <!-- <img class="main-img" src="./img/main-title.png" alt="메인타이틀"> -->
-            <!-- <h2 class="sub-title mt-3 text-center blind">대선후보 공략을 선택하여 나에게 꼭 맞는 대선후보를 찾아보자</h2> -->
-            <div class="start-cober mt-3 mb-3">
-                <!-- <button type="button" class="btn-start btn btn-primary">
-                    한번.. 골라보겠소
-                </button> -->
-                <!-- <button type="button" class="btn-egg btn btn-primary">
-                    뽑을 사람이 없소!
-                </button> -->
+            <button class="share-message mb-4 go-to-debate"><strong>22.02.04<br> 4자 토론 요약본 보러 가기</strong></button>
+            <button class="share-message mb-4 second" onclick="clip(); return false;"><strong>url 복사하기</strong></button>
+            <div class='share-box'>
+            <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+            <div class="add-insta"><span class="insta-text">Instagram</span></div>
+                <div class="addthis_inline_share_toolbox"></div>
             </div>
-            <!-- <div class='refer-box'>
-                <p class="refer-text">* 본 테스트는 어디까지나 참고용입니다!</p>
+
+       
+            <div class='refer-box'>
+                <p class="refer-text">* 본 사이트는 특정 후보를 지지하지 않습니다!</p>
                 <p class="refer-text contact">Contact: 2022daeseon@gmail.com</p>
-            </div> -->
+            </div>
         </article>
+        <article class="question">
+            <h1 class="main-title mt-5 text-center" onclick="location.href='/'">청와대의 주인<span class="version">2022 ver.</span></h1>
+            <div class="middle-img-box">
+                <img src="./img/debate-summary.png" alt="질문영역">
+                <!-- <p id="subject" class="subject-content text-center">1. 부동산</p> -->
+                <!-- <div class="progress mt-5">
+                    <div class="progress-bar" role="progressbar" style="width: calc(100/9*1%)"></div>
+                </div> -->
+                <!-- <div class="title-box">
+                    <h2 id="title" class="question-content text-center">부동산 문제에 대한 정책입니다.<br>선택지를 고르세요.</h2>
+                </div> -->
+            </div>
+            
+            <button id="A" data-target="A" type="button" class="btn-answer btn btn-primary">주제 토론 1. 부동산</button>
+            
+            <button id="B" data-target="B" type="button" class="btn-answer btn btn-primary">주도권 토론 1</button>
+            
+            <button id="C" data-target="C" type="button" class="btn-answer btn btn-primary">주제 토론 2. 안보</button>
+            
+            <button id="D" data-target="D" type="button" class="btn-answer btn btn-primary">주도권 토론 2</button>
+            
+            <button class="share-message mb-4 reload"><strong>공약 보러 가기</strong></button>
+            <div class='refer-box'>
+                <p class="refer-text">* 본 사이트는 특정 후보를 지지하지 않습니다!</p>
+            </div>
+            
+            <!-- <div class="to-top-btn"></div> -->
+            <!-- <div class="arrow"></div> -->
+            <div class="popup-q">
+                <div class="popup-layer-q">
+                    <h4 class='ready-debate'>준비 중입니다.</h4>
+                    <div class='btn-reload'>공약 보러 가기</div>
+                </div>
+                <div class="popup-dimmed"></div>
+            </div>
+        </article>
+    
         
     </div>
 
+    <div class="popup">
+        <div class="popup-layer">
+            <div class="text-area">
+            
+                <div class="m-contents-img-box swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-box">
+                                <button class="sub-text">1. 부동산</button>
+                                <div class="text-box">
+                                    <strong class="title">“시장의 자정 역할 복기”</strong>
+                                    <p class="text">
+-  현 정부와 반대되는 정책 기조
+-  임기 내 주택 250만 호 공급
+-  종합 부동산세 전면 재검토
+-  임대기간 2년으로 재환원
+-  대출규제 완화                    
+                                    </p>
+                                    
+                                    <div class='popup-linkbox'>
+                                        <p class='link-sources'>[출처]</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="slide-box">
+                                <button class="sub-text">1. 부동산</button>
+                                <div class="text-box">
+                                    <strong class="title">“시장의 자정 역할 복기”</strong>
+                                    <p class="text">
+-  현 정부와 반대되는 정책 기조
+-  임기 내 주택 250만 호 공급
+-  종합 부동산세 전면 재검토
+-  임대기간 2년으로 재환원
+-  대출규제 완화                    
+                                    </p>
+                                    <p class='link-sources'>[출처]</p>
+                                    <div class='popup-linkbox'></div>
+                                </div>
+                            </div>
+                        </div>
+                                           
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                
+            </div>
+            
 
             <!-- <button class="close-btn"></button> -->
-            <!-- <div class="close-box close-btn"><img src="./img/close-btn-img.png" alt="닫기 버튼"></div> -->
+            <div class="close-box close-btn"><img src="./img/close-btn-img.png" alt="닫기 버튼"></div>
         </div>
         <div class="popup-dimmed"></div>
     </div>
-
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- <script src="js/candiate-logic.js"></script>  -->
+    <script src="js/candiate-logic.js"></script> 
     <script src="js/loading.js"></script>
-    <!-- <script src="js/popup-img-change.js"></script> -->
+    <script src="js/popup-img-change.js"></script>
+    <script src="js/next.js"></script>
     <!-- <script src="js/swiper.js"></script> -->
     <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61f018864427dc99"></script>
 

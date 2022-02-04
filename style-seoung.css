@@ -47,7 +47,7 @@ button:focus {
 /* 시작화면 */
 
 .question {
-    display: none;
+    display: block;
     margin: 0 auto;
 }
 .main-title {
@@ -66,12 +66,73 @@ button:focus {
 }
 
 .main-img-box {
-    max-width: 375px;
+    position: relative;
+    width: 23rem;
     margin: 0 auto;
-    margin-top: 2.29rem;
-    border: 1.07rem solid #C4C4C4;
+    margin-top: 4.29rem;
     border-radius: 1.43rem;
+    margin-bottom: 5rem;
 }
+
+.main-img-box img {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.main-img-box img.img-area {
+    position: absolute;
+    width: 6.58rem;
+    cursor: pointer;
+}
+
+
+.main-img-box img.yoon {
+    top: -3rem;
+    right: -2rem;
+    width: 6.58rem;
+    height: 7.25rem;
+    transform: rotate(-15deg);
+}
+
+.main-img-box img.lee {
+    top: -3rem;
+    left: -2rem;
+    width: 6.58rem;
+    height: 7.25rem;
+    transform: rotate(15deg);
+}
+
+.main-img-box img.sim {
+    top: 9rem;
+    left: -2rem;
+    width: 6.58rem;
+    height: 7.25rem;
+}
+
+.main-img-box img.ahn {
+    top: 9rem;
+    right: -2rem;
+    width: 6.58rem;
+    height: 7.25rem;
+}
+
+.main-img-box img.huh {
+    top: 20rem;
+    left: -2rem;
+    width: 6.58rem;
+    height: 7.25rem;
+    transform: rotate(-15deg);
+}
+
+.main-img-box img.kim {
+    top: 20rem;
+    right: -2.6rem;
+    width: 8rem;
+    height: 7.25rem;
+    transform: rotate(15deg);
+}
+
 
 .main-des {
     font-size: 1rem;
@@ -199,7 +260,8 @@ button:focus {
 
 .middle-img-box {
     position: relative;
-    max-width: 22.86rem;
+    width: 15.17rem;
+    margin: 0 auto;
     height: 100%;
     margin: 0 auto;
     margin-top: 1.88rem;
@@ -370,8 +432,8 @@ button:focus {
 .share-message {
     display: block;
     margin: 0 auto;
-    width: 12rem;
-    height: 3.64rem;
+    width: 18rem;
+    padding: 0.4rem;
     border: 7px solid #C4C4C4;
     font-size: 1.07rem;
     font-weight: 100;
@@ -379,6 +441,11 @@ button:focus {
     background: #F0F0F0;
     text-align: center;
     cursor: pointer;
+}
+
+
+.share-message.second {
+    border-radius: 1.2rem;
 }
 
 .result {
@@ -543,6 +610,15 @@ button:focus {
     text-align: center;
 }
 
+.popup-q {
+    position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+    text-align: center;
+}
+
 .popup:after {
     display: inline-block;
 	vertical-align: middle;
@@ -550,6 +626,16 @@ button:focus {
 	height: 100%;
 	content: '';
 }
+
+.popup-q:after {
+    display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	height: 100%;
+	content: '';
+}
+
+
 
 .popup-layer {
 	position: relative;
@@ -569,6 +655,34 @@ button:focus {
     right: 0; */
 }
 
+
+.popup-layer-q {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background: #F0F0F0;
+    border: 7px solid #C4C4C4;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    z-index: 999;
+}
+
+.ready-debate {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+.btn-reload {
+    width: 120px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border: 4px solid #C4C4C4;
+    border-radius: 9px;
+    cursor: pointer;
+    
+}
 /* .close-btn {
     position: absolute;
     width: 21px;
@@ -722,13 +836,28 @@ button:focus {
 
 @media screen and (max-width: 375px) {
     html {
-        font-size: 3.7333vw;
+        font-size: 3.4333vw;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
 @media screen and (max-width: 280px) {
     html {
         font-size: 10px;
+    }
+
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
     }
     
 }

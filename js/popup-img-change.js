@@ -203,82 +203,6 @@
 </div>
 </div>	
 				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">8. 정권 교체</button>
-	<div class="text-box">
-		<strong class="title">22.01.27 기준 정권 교체 여론</strong>
-		<p class="text">   
-문화일보
-
--  정권교체론 55.3%
--  정권유지론 35.4%
-
-세계일보
-
--  정권교체론 52%
--  정권재창출 37.1%	
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('http://www.munhwa.com/news/view.html?no=2022012701070321302001')">설 민심 대선 여론조사</p>
-			<p class="popup-link" onclick="window.open('http://www.segye.com/newsView/20220127517344?OutUrl=naver')">정권교체 국민 여론</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">9. 개인의 역량</button>
-	<div class="text-box">
-		<strong class="title"></strong>
-		<p class="text">   
-매 토론 시마다 끊임 없는 자질 논란
-
-프롬프터의 미작동으로 인한 2분 침묵        
-		</p>
-
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">자질 논란</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=UIc2iGyt-Y4')">2분 침묵 사건</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">10. 지지율</button>
-	<div class="text-box">
-		<strong class="title">22.01.31 대선후보 지지율</strong>
-		<p class="text">   
--  윤석열 37.8%
-
--  이재명 33.2%
-
--  안철수 11.1%
-
--  심상정 2.3%      
-
-표본오차 95%
-
-응답률 21.2%
-		</p>
-
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link center" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
 			]
 		},
 
@@ -481,61 +405,6 @@
 </div>
 </div>	
 				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">8. 정권 교체</button>
-	<div class="text-box">
-		<strong class="title">22.01.27 기준 정권 교체 여론</strong>
-		<p class="text">   
-문화일보
-
--  정권교체론 55.3%
--  정권유지론 35.4%
-
-세계일보
-
--  정권교체론 52%
--  정권재창출 37.1%	
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('http://www.munhwa.com/news/view.html?no=2022012701070321302001')">설 민심 대선 여론조사</p>
-			<p class="popup-link" onclick="window.open('http://www.segye.com/newsView/20220127517344?OutUrl=naver')">정권교체 국민 여론</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">10. 지지율</button>
-	<div class="text-box">
-		<strong class="title">22.01.31 대선후보 지지율</strong>
-		<p class="text">   
--  윤석열 37.8%
-
--  이재명 33.2%
-
--  안철수 11.1%
-
--  심상정 2.3%      
-
-표본오차 95%
-
-응답률 21.2%
-		</p>
-
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
 			]
 		},
 
@@ -730,61 +599,6 @@
 			<p class='link-sources'>[출처]</p>
 			<p class="popup-link" onclick="window.open('https://view.asiae.co.kr/article/2022012015350907067')">청와대 수석제 폐지…</p>
 			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=tH7cItdC89s')">정치 대개혁 토론회</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">8. 정권 교체</button>
-	<div class="text-box">
-		<strong class="title">22.01.27 기준 정권 교체 여론</strong>
-		<p class="text">   
-문화일보
-
--  정권교체론 55.3%
--  정권유지론 35.4%
-
-세계일보
-
--  정권교체론 52%
--  정권재창출 37.1%	
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('http://www.munhwa.com/news/view.html?no=2022012701070321302001')">설 민심 대선 여론조사</p>
-			<p class="popup-link" onclick="window.open('http://www.segye.com/newsView/20220127517344?OutUrl=naver')">정권교체 국민 여론</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">10. 지지율</button>
-	<div class="text-box">
-		<strong class="title">22.01.31 대선후보 지지율</strong>
-		<p class="text">   
--  윤석열 37.8%
-
--  이재명 33.2%
-
--  안철수 11.1%
-
--  심상정 2.3%      
-
-표본오차 95%
-
-응답률 21.2%
-		</p>
-
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
 		</div>
 	</div>
 </div>
@@ -995,66 +809,11 @@
 </div>
 </div>	
 				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">8. 정권 교체</button>
-	<div class="text-box">
-		<strong class="title">22.01.27 기준 정권 교체 여론</strong>
-		<p class="text">   
-문화일보
-
--  정권교체론 55.3%
--  정권유지론 35.4%
-
-세계일보
-
--  정권교체론 52%
--  정권재창출 37.1%	
-		</p>
-		
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('http://www.munhwa.com/news/view.html?no=2022012701070321302001')">설 민심 대선 여론조사</p>
-			<p class="popup-link" onclick="window.open('http://www.segye.com/newsView/20220127517344?OutUrl=naver')">정권교체 국민 여론</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
-				`
-<div class="swiper-slide">
-<div class="slide-box">
-	<button class="sub-text">10. 지지율</button>
-	<div class="text-box">
-		<strong class="title">22.01.31 대선후보 지지율</strong>
-		<p class="text">   
--  윤석열 37.8%
-
--  이재명 33.2%
-
--  안철수 11.1%
-
--  심상정 2.3%      
-
-표본오차 95%
-
-응답률 21.2%
-		</p>
-
-		<div class='popup-linkbox'>
-			<p class='link-sources'>[출처]</p>
-			<p class="popup-link" onclick="window.open('https://www.youtube.com/watch?v=HOqPCH-CXU4')">[KBS  여론조사]</p>
-		</div>
-	</div>
-</div>
-</div>	
-				`,
 			]
 		},
 
 		{
-			//4 test-contents
+			//5 test-contents
 			type: 'huh',
 			target: 'huh',
 			urlLength: 9,
@@ -1370,6 +1129,198 @@
 				`,
 			]		
 		},
+		{
+			//5 test-contents
+			type: 'kim',
+			target: 'kim',
+			urlLength: 9,
+			backColor: '#9CFFA6',
+			objs: {
+				//각 섹션을 담는 요소 
+				subText: $('.sub-text'),
+				title: $('.text-box .title'),
+				text: $('.text_box .text'),
+				colorBox: $('.m-contents-img-box'),
+			},
+			textList: [
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">1. 부동산</button>
+		<div class="text-box">
+			<strong class="title">“심리가 잡히면 부동산 해결”</strong>
+			<p class="text">
+- 1년 내에 부동산 심리 안정화
+
+-  1. 공급 
+    다른 후보들의 공약은  현실성 x
+    싸고 신속하고 지속적인 공급
+
+-  2. 투기 억제, 규제
+    가구 수에 따른 완전한 차별화
+    1가구, 무주택자 > 대출, 세금 급감
+    다주택자 > 투기억제책, 규제 강화
+
+-  3. 국가 균형 발전
+     모든 측면에서 지방 균형 발전
+						</p>
+			
+			<div class='popup-linkbox'>
+				<p class='link-sources'>[출처]</p>
+				<p class="popup-link" onclick="window.open('https://blog.naver.com/dyvision2030/222633508399')">김동연의 3가지 처방</p>
+			</div>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">2. 대북</button>
+	<div class="text-box">
+		<strong class="title">“언제까지 눈치만 볼 것인가”</strong>
+		<p class="text">
+-  평화는 ‘안보’ 속에서.
+하루 빨리 실질적인 대응 추진
+
+-  정부는 지금이라도 
+‘규탄’ 메시지 전달 
+
+-  할 말은 하면서도 가능한 단계의 
+교류를 확대하는 균형잡힌 정책 필요          
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://blog.naver.com/PostView.naver?blogId=dyvision2030&logNo=222634936780&categoryNo=27&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postList&userTopListOpen=true&userTopListCount=5&userTopListManageOpen=false&userTopListCurrentPage=1')">"북한의 무력시위를 규탄한다"</p>
+			<p class="popup-link" onclick="window.open('https://blog.naver.com/PostView.naver?blogId=dyvision2030&logNo=222626737672&categoryNo=27&parentCategoryNo=0&viewDate=&currentPage=2&postListTopCurrentPage=&from=postList&userTopListOpen=true&userTopListCount=5&userTopListManageOpen=false&userTopListCurrentPage=2')">“제대로 대응하라”</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">3. 경제</button>
+	<div class="text-box">
+		<strong class="title">“5개의 서울”</strong>
+		<p class="text">
+-  서경, 부울경, 대구경북, 광주호남,   
+   대전충청 > 메가 시티 구축
+
+-  “재정 연방제” 지방 권한 대폭 확대
+
+-  기업이 가야 경제가 산다
+   → 지방 이주 기업 대폭 과세,
+   지역개발권 부여
+
+-  인재 균형
+   → 사립대 지방이전 인센티브 확대
+   지역 거점 대학 서울대 수준 육성         
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://blog.naver.com/PostView.naver?blogId=dyvision2030&logNo=222570002912&categoryNo=13&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postList&userTopListOpen=true&userTopListCount=5&userTopListManageOpen=false&userTopListCurrentPage=1')">" 5개의 서울 만들기 "</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">4. 여성가족부</button>
+	<div class="text-box">
+		<strong class="title">“어떻게 청년들을 나누나”</strong>
+		<p class="text">
+-  어떻게 이대남, 이대녀 등 그룹으로
+   청년 세대를 특정지을 수 있는가?
+
+-  어떤 한 부처를 폐지한다는 것은
+   정부 조직의 구조를 모르는 것
+
+-  여가부가 성과가 없는 건 사실이나
+   복지, 청소년, 가족 등 여러 문제를 
+   보고 신중하게 결정해야 할 문제.
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://blog.naver.com/dyvision2030/222635987494')">"여가부 폐지, 김동연의 생각은?"</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">5. 논란</button>
+	<div class="text-box">
+		<strong class="title"></strong>
+		<p class="text">    
+		</p>
+		
+		<div class='popup-linkbox'>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+				`
+<div class="swiper-slide">
+	<div class="slide-box">
+		<button class="sub-text">6. 방역 대책</button>
+		<div class="text-box">
+			<strong class="title">"과감·신속한 지원 원칙 적용"</strong>
+			<p class="text">
+-  지금의 백신패스와 거리두기 변화
+
+-  빠른 시간 내에 소상 공인들을 위한
+   구체적인 대안 희망 - 손실보상금
+
+-  코로나 19 경제 위기 극복을 위한 
+   원탁회의 제안				 
+						</p>
+			
+			<div class='popup-linkbox'>
+				<p class='link-sources'>[출처]</p>
+				<p class="popup-link" onclick="window.open('http://www.joseilbo.com/news/htmls/2022/02/20220202445396.html')">불꽃튀는 정책토론</p>
+				<p class="popup-link" onclick="window.open('https://blog.naver.com/PostList.naver?blogId=dyvision2030&from=postList&categoryNo=13')">"코로나19  손실보상금"</p>
+			</div>
+		</div>
+	</div>
+</div>				
+				`,
+				`
+<div class="swiper-slide">
+<div class="slide-box">
+	<button class="sub-text">7. 정치개혁</button>
+	<div class="text-box">
+		<strong class="title">“권력구조 대개혁”</strong>
+		<p class="text">
+-  “분권형 대통령제” 
+   5년 단임제 → 4년 중임제
+
+-  “국회 기득권 개혁”
+   비례성, 다양성을 보장하는
+   연동형 비례대표제 도입
+
+-  3선 초과 금지, 국민소환제 도입
+		</p>
+		
+		<div class='popup-linkbox'>
+			<p class='link-sources'>[출처]</p>
+			<p class="popup-link" onclick="window.open('https://blog.naver.com/PostView.naver?blogId=dyvision2030&logNo=222583080060&categoryNo=13&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=&from=postList&userTopListOpen=true&userTopListCount=5&userTopListManageOpen=false&userTopListCurrentPage=1')">“권력 구조 대개혁”</p>
+		</div>
+	</div>
+</div>
+</div>	
+				`,
+			]
+		},
 
 		
 	];
@@ -1491,7 +1442,7 @@
 
 	})
 
-	$(document).on('click', '.small-img', function() {
+	$(document).on('click', '.img-area', function() {
 		let target = $(this).data('target');
 
 		if(target == "yoon"){ currentClick = 0}
@@ -1499,6 +1450,7 @@
 		else if(target == "sim"){ currentClick = 2}
 		else if(target == "lee"){ currentClick = 3}
 		else if(target == "huh"){ currentClick = 4}
+		else if(target == "kim"){ currentClick = 5}
 
 		
 		openPopup();
