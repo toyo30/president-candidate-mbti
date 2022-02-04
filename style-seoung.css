@@ -89,8 +89,8 @@ button:focus {
 .main-img-box img.yoon {
     top: -3rem;
     right: -2rem;
-    width: 6.58rem;
-    height: 7.25rem;
+    width: 7rem;
+    height: 6.9rem;
     transform: rotate(-15deg);
 }
 
@@ -103,33 +103,33 @@ button:focus {
 }
 
 .main-img-box img.sim {
-    top: 9rem;
+    top: 8rem;
     left: -2rem;
     width: 6.58rem;
     height: 7.25rem;
 }
 
 .main-img-box img.ahn {
-    top: 9rem;
+    top: 8rem;
     right: -2rem;
-    width: 6.58rem;
-    height: 7.25rem;
+    width: 6rem;
+    height: 6.7rem;
 }
 
 .main-img-box img.huh {
-    top: 20rem;
+    top: 19rem;
     left: -2rem;
     width: 6.58rem;
     height: 7.25rem;
-    transform: rotate(-15deg);
+    transform: rotate(-22deg);
 }
 
 .main-img-box img.kim {
-    top: 20rem;
+    top: 19rem;
     right: -2.6rem;
     width: 8rem;
     height: 7.25rem;
-    transform: rotate(15deg);
+    transform: rotate(22deg);
 }
 
 
